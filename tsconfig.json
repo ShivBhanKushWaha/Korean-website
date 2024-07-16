@@ -19,8 +19,8 @@
     ],
     "paths": {
       "@/*": ["./src/*"],
-      "@components":["src/components"],
-      "@organisms":["./src/app/organisms"]
+      "@components":["./src/components"],
+      "@organisms":["./src/organisms"]
       
     }
   },
