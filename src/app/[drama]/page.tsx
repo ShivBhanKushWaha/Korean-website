@@ -1,31 +1,34 @@
-// pages/cards/[cardName].js
-'use client'
-import { useParams, useRouter } from 'next/navigation';
+// pages/episodes.tsx
+import React from 'react';
+import { EpisodeCard } from '@/organisms';
+import { DotOfSun } from '../../../assets';
 
-const CardEpisodes = () => {
-  const router = useRouter();
-  const { cardName } = useParams();
+const episodes = [
+  {
+    id: 1,
+    title: 'Episode 1',
+    imageUrl: DotOfSun,
+    verificationCode: '123456',
+    link: 'https://1024terabox.com/s/1PiAxBcBpYFS55ECpJ5U_0w',
+  },
+  {
+    id: 2,
+    title: 'Episode 2',
+    imageUrl: DotOfSun,
+    verificationCode: '654321',
+    link: 'https://example.com/episode2',
+  },
+  // Add more episodes as needed
+];
 
-  // Example: Fetch episodes data based on cardName
-  // Replace with your actual data fetching logic
-  const episodes = [
-    { id: 1, title: 'Episode 1' },
-    { id: 2, title: 'Episode 2' },
-    { id: 3, title: 'Episode 3' },
-  ];
-
+const EpisodesPage = () => {
   return (
-    <div className="p-4">
-      <h1 className="text-3xl font-bold mb-4">{cardName} Episodes</h1>
-      <ul>
-        {episodes.map((episode) => (
-          <li key={episode.id}>
-            <p>{episode.title}</p>
-          </li>
-        ))}
-      </ul>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
+      {episodes.map((episode) => (
+        <EpisodeCard key={episode.id} episode={episode} />
+      ))}
     </div>
   );
 };
 
-export default CardEpisodes;
+export default EpisodesPage;
