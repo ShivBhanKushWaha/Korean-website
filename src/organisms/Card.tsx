@@ -13,7 +13,7 @@ const Card: React.FC<CardProps> = ({ img, title, desciption }) => {
     router.push(`/${title.toLowerCase().replace(/ /g, '-')}`)
   }
   return (
-    <div className='py-2 my-4' onClick={() => handleClick()}>
+    <div className='py-2 my-4 cursor-pointer border-black rounded-lg shadow-lg px-7' onClick={() => handleClick()}>
       <div className="w-[60px] h-[50px] border border-[#04B600] rounded-[11px]">
         <div className=" border border-[#04B600] bg-black rounded-t-[11px] items-center justify-center flex">
           <Image src={img} alt={title} width={200} height={200}/>

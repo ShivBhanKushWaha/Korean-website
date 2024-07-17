@@ -2,6 +2,7 @@
 'use client'
 import React, { useState } from 'react';
 import Image from 'next/image';
+import Popup from './PopUp';
 
 interface Episode {
   id: number;
@@ -19,11 +20,13 @@ const EpisodeCard: React.FC<EpisodeCardProps> = ({ episode }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [verificationCode, setVerificationCode] = useState('');
   const [isVerified, setIsVerified] = useState(false);
+  const [showVerificationPopup, setShowVerificationPopup] = useState(false);
 
   const handleVerification = () => {
     if (verificationCode === episode.verificationCode) {
       setIsVerified(true);
       setIsOpen(false);
+      setShowVerificationPopup(true);
     } else {
       alert('Invalid verification code');
     }
@@ -73,6 +76,13 @@ const EpisodeCard: React.FC<EpisodeCardProps> = ({ episode }) => {
               </button>
             </div>
           </div>
+        )}
+
+        {showVerificationPopup && (
+          <Popup
+            message="Verification successful! You can now access the episode."
+            onClose={() => setShowVerificationPopup(false)}
+          />
         )}
 
         {isVerified && (
