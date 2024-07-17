@@ -21,7 +21,6 @@
       "@/*": ["./src/*"],
       "@components":["./src/components"],
       "@organisms":["./src/organisms"]
-      
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
