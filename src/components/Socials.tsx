@@ -14,7 +14,7 @@ type IconType = React.FC<{ size?: string | number; color?: string }>;
 
 const icons: { path: string; name: IconType }[] = [
   {
-    path: 'https://www.youtube.com/@ShivbhanKushwaha3051',
+    path: 'https://www.youtube.com/@Romanticlovekdrama',
     name: RiYoutubeFill,
   },
   {
@@ -30,7 +30,7 @@ const icons: { path: string; name: IconType }[] = [
     name: RiGithubFill,
   },
   {
-    path: 'https://www.facebook.com/shivbhan.kushwaha.75',
+    path: 'https://www.facebook.com/profile.php?id=61559766314030',
     name: RiFacebookFill,
   },
   {

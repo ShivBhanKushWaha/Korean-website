@@ -7,9 +7,9 @@ const Footer = () => {
         <div className="flex flex-col items-center justify-between">
           {/* sociasl */}
           <Socials containerStyles='flex gap-x-6 mx-auto xl:mx-0 mb-4' iconsStyles='text-primary dark:text-white/70 
-          text-[20px] hover:text-white dark:hover:text-primary transition-all' />
+          text-[20px] hover:text-white dark:hover:text-primary transition-all cursor-pointer' />
           {/* copyright */}
-          <div className="text-muted-foreground text-white">
+          <div className="text-muted-foreground text-white text-center">
             Copyright &copy; Romantic love kdrama. All rights reserved.
           </div>
         </div>

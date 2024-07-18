@@ -11,6 +11,7 @@ interface Episode {
   verificationCode: string;
   videolink: string;
   youtubeLink: string;
+  uploaded: boolean;
 }
 
 interface EpisodeCardProps {
@@ -38,7 +39,7 @@ const EpisodeCard: React.FC<EpisodeCardProps> = ({ episode }) => {
 
   return (
     <>
-      <div className="border border-gray-200 rounded-lg overflow-hidden shadow-md w-60 hover:scale-105 hover:shadow-2xl transition duration-500 ease-linear">
+      <div className="border border-gray-200 rounded-lg overflow-hidden shadow-md w-60 hover:shadow-2xl transition duration-500 ease-linear">
         <div className="w-full h-24 flex items-center justify-center">
           <Image
             src={episode.imageUrl}
@@ -46,22 +47,31 @@ const EpisodeCard: React.FC<EpisodeCardProps> = ({ episode }) => {
           />
         </div>
         <div className="py-4 px-2">
-          <div className='flex flex-row justify-start items-start mt-2 mb-2 gap-x-1'>
-            <h2 className="text-xl font-semibold">{episode.title}</h2>
-            <h3 className="text-lg font-semibold">Episode {episode.id}</h3>
+          <div className='flex flex-col justify-start items-start mt-2 mb-2 gap-x-1'>
+            <h2 className="text-[18px] font-semibold">{episode.title}</h2>
+            <h3 className="text-base font-semibold">Episode {episode.id}</h3>
           </div>
-          <button
-            onClick={() => setIsOpen(true)}
-            className="bg-blue-500 hover:bg-blue-600 text-black px-4 py-2 rounded"
-          >
-            View Episode
-          </button>
+          {episode.uploaded ? (
+            <button
+              onClick={() => setIsOpen(true)}
+              className="bg-blue-500 hover:bg-blue-600 text-black px-4 py-2 rounded w-full text-center"
+            >
+              View Episode
+            </button>
+          ) : (
+            <button
+              disabled
+              className="bg-gray-400 text-black px-4 py-2 rounded w-full text-center cursor-not-allowed"
+            >
+              Not Published
+            </button>
+          )}
         </div>
       </div>
       {isOpen && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 sm:px-auto px-2">
           <div className="bg-white p-6 rounded-lg z-60">
-            <h2 className="text-2xl mb-4">Enter Verification Code</h2>
+            <h2 className="text-[20px] mb-4 text-center">Enter Verification Code</h2>
             <input
               type="text"
               value={verificationCode}
@@ -70,13 +80,13 @@ const EpisodeCard: React.FC<EpisodeCardProps> = ({ episode }) => {
             />
             <button
               onClick={handleVerification}
-              className="bg-green-500 text-black px-4 py-2 rounded"
+              className="bg-green-500 text-black px-4 py-2 rounded w-full text-center"
             >
               Verify
             </button>
             <button
               onClick={() => setIsOpen(false)}
-              className="bg-red-500 text-black px-4 py-2 rounded ml-2"
+              className="bg-red-500 text-black px-4 py-2 rounded w-full text-center mt-2"
             >
               Cancel
             </button>

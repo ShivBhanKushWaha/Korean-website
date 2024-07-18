@@ -10,9 +10,9 @@ interface PopupProps {
 
 const Popup: React.FC<PopupProps> = ({ message, onClose, link }) => {
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 sm:px-auto px-2">
       <div className="bg-white p-6 rounded-lg shadow-md z-60">
-        <h2 className="text-2xl mb-4">{message}</h2>
+        <h2 className="text-[20px] mb-4 text-center">{message}</h2>
         <div className='flex flex-row justify-center gap-x-6 items-center'>
           {link && (
             <Link

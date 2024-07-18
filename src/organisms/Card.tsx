@@ -7,14 +7,15 @@ import React from 'react';
 interface CardProps {
   img?: any;
   title: string;
+  routes:string;
   desciption: string;
 }
 
-const Card: React.FC<CardProps> = ({ img, title, desciption }) => {
+const Card: React.FC<CardProps> = ({ img,routes, title, desciption }) => {
   const router = useRouter();
 
   const handleClick = () => {
-    router.push(`/${title.toLowerCase().replace(/ /g, '-')}`);
+    router.push(`/AllDrama/${routes}`);
   };
 
   return (
@@ -23,7 +24,7 @@ const Card: React.FC<CardProps> = ({ img, title, desciption }) => {
         <Image src={img} alt={title} layout="fill" objectFit="cover" />
       </div>
       <div className="p-4">
-        <p className="text-xl font-medium text-gray-800">{title}</p>
+        <p className="text-[18px] font-medium text-gray-800">{title}</p>
         <p className="text-sm text-gray-600">{desciption}</p>
       </div>
     </div>
