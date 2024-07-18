@@ -7,7 +7,7 @@ export const Episodes = [
         verificationCode: '123456',
         videolink: 'https://1024terabox.com/s/1XtU1tTFSN7q5z8-SSrnSOw',
         youtubeLink: '',
-        uploaded: false,
+        uploaded: true,
     },
     {
         id: 2,
