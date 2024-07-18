@@ -15,11 +15,11 @@ const WhoAmI = () => {
             </p>
 
             <p className="mb-4 text-justify">
-                If you're looking to create a new website or develop an app, feel free to reach out to me. I am available for freelance work and would love to discuss how I can assist you with your project.
+                If you&apos;re looking to create a new website or develop an app, feel free to reach out to me. I am available for freelance work and would love to discuss how I can assist you with your project.
             </p>
 
             <p className="mb-4 text-justify">
-                You can contact me through LinkedIn for any inquiries or project discussions. Let's connect and create something amazing together!
+                You can contact me through LinkedIn for any inquiries or project discussions. Let&apos;s connect and create something amazing together!
             </p>
 
             <div className="text-center">

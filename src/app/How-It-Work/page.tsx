@@ -42,9 +42,9 @@ const VideoExplanation = () => {
         Thank you for understanding and participating in our verification process. If you have any questions or need assistance, please feel free to reach out to our support team. For any problems, comment on our YouTube channel by clicking <Link href="/youtube-channel" className="text-blue-500">here</Link>.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-semibold mb-3">Watch Before It's Paid</h2>
+      <h2 className="text-xl sm:text-2xl font-semibold mb-3">Watch Before It&apos;s Paid</h2>
       <p className="mb-4 text-justify">
-        Don't miss out! Our videos are available for free for a limited time before they become paid content. Be sure to watch them as soon as they are published to enjoy them without any cost. Once the free period ends, you will need to purchase access to view the episodes.
+        Don&apos;t miss out! Our videos are available for free for a limited time before they become paid content. Be sure to watch them as soon as they are published to enjoy them without any cost. Once the free period ends, you will need to purchase access to view the episodes.
       </p>
     </div>
   );
