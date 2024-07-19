@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Logo } from "../../assets";
+import { Logo } from "@assets";
 import { FiMenu, FiX } from "react-icons/fi";
 import { useRouter } from "next/navigation";
 
