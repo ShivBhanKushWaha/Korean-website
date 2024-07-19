@@ -7,11 +7,11 @@ import React from 'react';
 interface CardProps {
   img?: any;
   title: string;
-  routes:string;
+  routes: string;
   desciption: string;
 }
 
-const Card: React.FC<CardProps> = ({ img,routes, title, desciption }) => {
+const Card: React.FC<CardProps> = ({ img, routes, title, desciption }) => {
   const router = useRouter();
 
   const handleClick = () => {
