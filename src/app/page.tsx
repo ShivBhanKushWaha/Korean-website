@@ -1,7 +1,7 @@
 // pages/index.tsx or HomePage.tsx
 import React from 'react';
-import { Card } from '@/organisms';
-import { BusinessProposal, CuteBodyGaurd, DineWithLove, DotOfSun, Encounter, ExtraOrdinaryYou, FallInLove, Goblin, ItsOkayToNotToBeOkay, KingTheLand, LieToLove, LoveIsSweet, LoveMeLikeIDo, LoveScenery, MarryMyHusband, MeltingMeSoftly, MyDemon, MyGirlFriendIsAnAlien, OurSecret, PutYourHeadOnMyShoulder, QueenOfTears, School2017, SnowDrop, TheLegendOfTheBlueSea, TheLoveYouGaveMe, TimeToFallInLove, WTwoWorld, } from '@assets';
+import { Card } from '@organisms';
+import { BusinessProposal, CuteBodyGaurd, DineWithLove, DotOfSun, Encounter, ExtraOrdinaryYou, FallInLove, Goblin, ItsOkayToNotToBeOkay, KingTheLand, LieToLove, LoveIsSweet, LoveMeLikeIDo, LoveScenery, MarryMyHusband, MeltingMeSoftly, MyDemon, MyGirlFriendIsAnAlien, OurSecret, PutYourHeadOnMyShoulder, QueenOfTears, School2017, SnowDrop, TheLegendOfTheBlueSea, TheLoveYouGaveMe, TimeToFallInLove, WTwoWorldApart, } from '@assets';
 
 const HomePage = () => {
   const dummyData = [
@@ -18,9 +18,9 @@ const HomePage = () => {
       description: 'Total 36 episodes'
     },
     {
-      img: WTwoWorld,
-      routes:'WTwoWorld',
-      title: 'W Two Worlds',
+      img: WTwoWorldApart,
+      routes:'WTwoWorldApart',
+      title: 'W Two Worlds Apart',
       description: 'Total 16 episodes'
     },
     {

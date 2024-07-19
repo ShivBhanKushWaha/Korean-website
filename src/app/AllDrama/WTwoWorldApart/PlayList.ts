@@ -1,9 +1,9 @@
-import { WTwoWorld } from "@assets"
+import { WTwoWorldApart } from "@assets"
 export const Episodes = [
     {
         id: 1,
         title: 'W Two Worlds Apart',
-        imageUrl: WTwoWorld,
+        imageUrl: WTwoWorldApart,
         verificationCode: '123456',
         videolink: 'https://1024terabox.com/s/1mEYBz8pPhpDXdu33JkoC9g',
         youtubeLink: '',
@@ -12,7 +12,7 @@ export const Episodes = [
     {
         id: 2,
         title: 'W Two Worlds Apart',
-        imageUrl: WTwoWorld,
+        imageUrl: WTwoWorldApart,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1eNvzG00SEKm1AigN4HBKCQ',
         youtubeLink: '',
@@ -21,7 +21,7 @@ export const Episodes = [
     {
         id: 3,
         title: 'W Two Worlds Apart',
-        imageUrl: WTwoWorld,
+        imageUrl: WTwoWorldApart,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1fR66vLx_YHDly4daB7Nwsw',
         youtubeLink: '',
@@ -30,7 +30,7 @@ export const Episodes = [
     {
         id: 4,
         title: 'W Two Worlds Apart',
-        imageUrl: WTwoWorld,
+        imageUrl: WTwoWorldApart,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1klGvKIYDemSBJBAG3i8ucg',
         youtubeLink: '',
@@ -39,7 +39,7 @@ export const Episodes = [
     {
         id: 5,
         title: 'W Two Worlds Apart',
-        imageUrl: WTwoWorld,
+        imageUrl: WTwoWorldApart,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1_Z0kCjGo1KTgVkeI8Fk-bw',
         youtubeLink: '',
@@ -48,7 +48,7 @@ export const Episodes = [
     {
         id: 6,
         title: 'W Two Worlds Apart',
-        imageUrl: WTwoWorld,
+        imageUrl: WTwoWorldApart,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1_z-jjZ3tFZEOQ6PLaE7OzA',
         youtubeLink: '',
@@ -57,7 +57,7 @@ export const Episodes = [
     {
         id: 7,
         title: 'W Two Worlds Apart',
-        imageUrl: WTwoWorld,
+        imageUrl: WTwoWorldApart,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1QjEnXPFpG8VG5J_B8-idhA',
         youtubeLink: '',
@@ -66,7 +66,7 @@ export const Episodes = [
     {
         id: 8,
         title: 'W Two Worlds Apart',
-        imageUrl: WTwoWorld,
+        imageUrl: WTwoWorldApart,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/19pFfdVoLhdVFwK98xXwLVg',
         youtubeLink: '',
@@ -75,7 +75,7 @@ export const Episodes = [
     {
         id: 9,
         title: 'W Two Worlds Apart',
-        imageUrl: WTwoWorld,
+        imageUrl: WTwoWorldApart,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1f9dyOekK3P-FANQ2zREqEw',
         youtubeLink: '',
@@ -84,7 +84,7 @@ export const Episodes = [
     {
         id: 10,
         title: 'W Two Worlds Apart',
-        imageUrl: WTwoWorld,
+        imageUrl: WTwoWorldApart,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1WrGYwj9euYP9D8niSqK10Q',
         youtubeLink: '',
@@ -93,7 +93,7 @@ export const Episodes = [
     {
         id: 11,
         title: 'W Two Worlds Apart',
-        imageUrl: WTwoWorld,
+        imageUrl: WTwoWorldApart,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1oj6ufzdsYC4Gns2WWV06cw',
         youtubeLink: '',
@@ -102,7 +102,7 @@ export const Episodes = [
     {
         id: 12,
         title: 'W Two Worlds Apart',
-        imageUrl: WTwoWorld,
+        imageUrl: WTwoWorldApart,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1nZ177LbXAMXxg-yBfFv4WQ',
         youtubeLink: '',
@@ -111,7 +111,7 @@ export const Episodes = [
     {
         id: 13,
         title: 'W Two Worlds Apart',
-        imageUrl: WTwoWorld,
+        imageUrl: WTwoWorldApart,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1YRnVQXWT7BH5n7O5gIseWw',
         youtubeLink: '',
@@ -120,7 +120,7 @@ export const Episodes = [
     {
         id: 14,
         title: 'W Two Worlds Apart',
-        imageUrl: WTwoWorld,
+        imageUrl: WTwoWorldApart,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1bzd199K_1UXyGrcFlmw_zQ',
         youtubeLink: '',
@@ -129,7 +129,7 @@ export const Episodes = [
     {
         id: 15,
         title: 'W Two Worlds Apart',
-        imageUrl: WTwoWorld,
+        imageUrl: WTwoWorldApart,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1NDnA0LLQCz45jv3RkH50GQ',
         youtubeLink: '',
@@ -138,7 +138,7 @@ export const Episodes = [
     {
         id: 16,
         title: 'W Two Worlds Apart',
-        imageUrl: WTwoWorld,
+        imageUrl: WTwoWorldApart,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1MfC7SJ7DT35FNebnV6Y08A',
         youtubeLink: '',
