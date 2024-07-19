@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Logo } from "@assets";
+import { RomanticLogo } from "@assets";
 import { FiMenu, FiX } from "react-icons/fi";
 import { useRouter } from "next/navigation";
 
@@ -25,7 +25,7 @@ const Header = () => {
         <div className="flex justify-between items-center h-full">
           <Image 
             onClick={() => router.push('/')} 
-            src={Logo} 
+            src={RomanticLogo} 
             alt="Logo" 
             width={200} 
             height={80} 
