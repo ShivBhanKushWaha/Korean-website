@@ -39,7 +39,7 @@ const VideoExplanation = () => {
         This verification system ensures that only viewers who have watched the YouTube video can access the full episode. It helps us maintain the integrity of our content and ensures that our viewers are engaged with the material.
       </p>
       <p className="mb-4 text-justify">
-        Thank you for understanding and participating in our verification process. If you have any questions or need assistance, please feel free to reach out to our support team. For any problems, comment on our YouTube channel by clicking <Link href="/youtube-channel" className="text-blue-500">here</Link>.
+        Thank you for understanding and participating in our verification process. If you have any questions or need assistance, please feel free to reach out to our support team. For any problems, comment on our YouTube channel by clicking <Link href="https://www.youtube.com/@romanticlovekdrama" target='_blank' className="text-blue-500">here</Link>.
       </p>
 
       <h2 className="text-xl sm:text-2xl font-semibold mb-3">Watch Before It&apos;s Paid</h2>

@@ -1,7 +1,7 @@
 // pages/index.tsx or HomePage.tsx
 import React from 'react';
 import { Card } from '@/organisms'; // Adjust the import path based on your project structure
-import { DotOfSun, ItsOkayToNotToBeOkay, LoveIsSweet, LoveScenery, MyGirlFriendIsAnAlien, WTwoWorld } from '../../assets';
+import { DotOfSun, ItsOkayToNotToBeOkay, LoveIsSweet, LoveScenery, MarryMyHusband, MyGirlFriendIsAnAlien, School2017, TheLegendOfTheBlueSea, WTwoWorld } from '../../assets';
 
 const HomePage = () => {
   const dummyData = [
@@ -40,6 +40,24 @@ const HomePage = () => {
       routes:'MyGirlFriendIsAnAlien',
       title: 'My Girl Friend Is An Alien',
       description: 'Total 28 episodes'
+    },
+    {
+      img: MarryMyHusband,
+      routes:'MarryMyHusband',
+      title: 'Marry My Husband',
+      description: 'Total 16 episodes'
+    },
+    {
+      img: School2017,
+      routes:'School2017',
+      title: 'School 2017',
+      description: 'Total 16 episodes'
+    },
+    {
+      img: TheLegendOfTheBlueSea,
+      routes:'TheLegendOfTheBlueSea',
+      title: 'The Legend Of The Blue Sea',
+      description: 'Total 40 episodes'
     },
   ];
 
