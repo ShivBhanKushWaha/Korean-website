@@ -1,6 +1,6 @@
 // pages/index.tsx or HomePage.tsx
 import React from 'react';
-import { Card } from '@/organisms'; // Adjust the import path based on your project structure
+import { Card } from '@/organisms';
 import { BusinessProposal, CuteBodyGaurd, DineWithLove, DotOfSun, Encounter, ExtraOrdinaryYou, FallInLove, Goblin, ItsOkayToNotToBeOkay, KingTheLand, LieToLove, LoveIsSweet, LoveMeLikeIDo, LoveScenery, MarryMyHusband, MeltingMeSoftly, MyDemon, MyGirlFriendIsAnAlien, OurSecret, PutYourHeadOnMyShoulder, QueenOfTears, School2017, SnowDrop, TheLegendOfTheBlueSea, TheLoveYouGaveMe, TimeToFallInLove, WTwoWorld, } from '@assets';
 
 const HomePage = () => {
