@@ -1,7 +1,7 @@
 // pages/index.tsx or HomePage.tsx
 import React from 'react';
 import { Card } from '@/organisms'; // Adjust the import path based on your project structure
-import { DotOfSun, ItsOkayToNotToBeOkay, LoveIsSweet, LoveScenery, MarryMyHusband, MyGirlFriendIsAnAlien, School2017, TheLegendOfTheBlueSea, WTwoWorld } from '../../assets';
+import { BusinessProposal, CuteBodyGaurd, DineWithLove, DotOfSun, Encounter, ExtraOrdinaryYou, FallInLove, Goblin, ItsOkayToNotToBeOkay, KingTheLand, LieToLove, LoveIsSweet, LoveMeLikeIDo, LoveScenery, MarryMyHusband, MeltingMeSoftly, MyDemon, MyGirlFriendIsAnAlien, OurSecret, PutYourHeadOnMyShoulder, QueenOfTears, School2017, SnowDrop, TheLegendOfTheBlueSea, TheLoveYouGaveMe, TimeToFallInLove, WTwoWorld } from '@assets';
 
 const HomePage = () => {
   const dummyData = [
@@ -59,6 +59,114 @@ const HomePage = () => {
       title: 'The Legend Of The Blue Sea',
       description: 'Total 40 episodes'
     },
+    {
+      img: BusinessProposal,
+      routes:'BusinessProposal',
+      title: 'Business Proposal',
+      description: 'Total 12 episodes'
+    },
+    {
+      img: CuteBodyGaurd,
+      routes:'CuteBodyGaurd',
+      title: 'Cute Body Gaurd',
+      description: 'Total 24 episodes'
+    },
+    {
+      img: DineWithLove,
+      routes:'DineWithLove',
+      title: 'Dine With Love',
+      description: 'Total 16 episodes'
+    },
+    {
+      img: Encounter,
+      routes:'Encounter',
+      title: 'Encounter',
+      description: 'Total 16 episodes'
+    },
+    {
+      img: ExtraOrdinaryYou,
+      routes:'ExtraOrdinaryYou',
+      title: 'Extra Ordinary You',
+      description: 'Total 16 episodes'
+    },
+    {
+      img: FallInLove,
+      routes:'FallInLove',
+      title: 'Fall In Love',
+      description: 'Total 36 episodes (Hindi 25)'
+    },
+    {
+      img: Goblin,
+      routes:'Goblin',
+      title: 'Goblin',
+      description: 'Total 16 episodes'
+    },
+    {
+      img: KingTheLand,
+      routes:'KingTheLand',
+      title: 'King The Land',
+      description: 'Total 16 episodes'
+    },
+    {
+      img: LieToLove,
+      routes:'LieToLove',
+      title: 'Lie To Love',
+      description: 'Total 32 episodes'
+    },
+    {
+      img: LoveMeLikeIDo,
+      routes:'LoveMeLikeIDo',
+      title: 'Love Me Like I Do',
+      description: 'Total 18 episodes'
+    },
+    {
+      img: MeltingMeSoftly,
+      routes:'MeltingMeSoftly',
+      title: 'Melting Me Softly',
+      description: 'Total 16 episodes'
+    },
+    {
+      img: MyDemon,
+      routes:'MyDemon',
+      title: 'My Demon',
+      description: 'Total 16 episodes'
+    },
+    {
+      img: OurSecret,
+      routes:'OurSecret',
+      title: 'Our Secret',
+      description: 'Total 24 episodes'
+    },
+    {
+      img: PutYourHeadOnMyShoulder,
+      routes:'PutYourHeadOnMyShoulder',
+      title: 'Put Your Head On My Shoulder',
+      description: 'Total 24 episodes'
+    },
+    {
+      img: QueenOfTears,
+      routes:'QueenOfTears',
+      title: 'Queen Of Tears',
+      description: 'Total 16 episodes'
+    },
+    {
+      img: SnowDrop,
+      routes:'SnowDrop',
+      title: 'Snow Drop',
+      description: 'Total 16 episodes'
+    },
+    {
+      img: TheLoveYouGaveMe,
+      routes:'TheLoveYouGaveMe',
+      title: 'The Love You Gave Me',
+      description: 'Total 28 episodes'
+    },
+    {
+      img: TimeToFallInLove,
+      routes:'TimeToFallInLove',
+      title: 'Time To Fall In Love',
+      description: 'Total 24 episodes'
+    },
   ];
 
   return (
@@ -69,7 +177,7 @@ const HomePage = () => {
           img={data.img}
           routes={data.routes}
           title={data.title}
-          desciption={data.description} // Fixed the typo in description prop
+          desciption={data.description}
         />
       ))}
     </div>

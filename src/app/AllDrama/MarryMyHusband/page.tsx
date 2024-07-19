@@ -1,7 +1,7 @@
 // pages/episodes.tsx
 import React from 'react';
 import { EpisodeCard } from '@/organisms';
-import { Episodes } from './PlayList';
+import { Episodes } from "./PlayList"
 
 const EpisodesPage = () => {
     return (

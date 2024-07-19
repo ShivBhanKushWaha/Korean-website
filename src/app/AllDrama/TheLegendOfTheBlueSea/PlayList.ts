@@ -2,7 +2,7 @@ import { TheLegendOfTheBlueSea } from "@assets"
 export const Episodes = [
     {
         id: 1,
-        title: 'TheLegendOfTheBlueSea',
+        title: 'The Legend Of The Blue Sea',
         imageUrl: TheLegendOfTheBlueSea,
         verificationCode: '123456',
         videolink: 'https://1024terabox.com/s/1brjv8_fg8wRcmUCb2LvPfQ',
@@ -11,7 +11,7 @@ export const Episodes = [
     },
     {
         id: 2,
-        title: 'TheLegendOfTheBlueSea',
+        title: 'The Legend Of The Blue Sea',
         imageUrl: TheLegendOfTheBlueSea,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1TH-kcQnMA1QadOBaCr7rtg',
@@ -20,7 +20,7 @@ export const Episodes = [
     },
     {
         id: 3,
-        title: 'TheLegendOfTheBlueSea',
+        title: 'The Legend Of The Blue Sea',
         imageUrl: TheLegendOfTheBlueSea,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1DVHALfoRPYGn3jq7eQ_04w',
@@ -29,7 +29,7 @@ export const Episodes = [
     },
     {
         id: 4,
-        title: 'TheLegendOfTheBlueSea',
+        title: 'The Legend Of The Blue Sea',
         imageUrl: TheLegendOfTheBlueSea,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/14BMKpRXJNodMb4TXbOQo4Q',
@@ -38,7 +38,7 @@ export const Episodes = [
     },
     {
         id: 5,
-        title: 'TheLegendOfTheBlueSea',
+        title: 'The Legend Of The Blue Sea',
         imageUrl: TheLegendOfTheBlueSea,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1PjZuPu98r7iqoAiCzl6wRA',
@@ -47,7 +47,7 @@ export const Episodes = [
     },
     {
         id: 6,
-        title: 'TheLegendOfTheBlueSea',
+        title: 'The Legend Of The Blue Sea',
         imageUrl: TheLegendOfTheBlueSea,
         verificationCode: '123456',
         videolink: 'https://1024terabox.com/s/1Zda8Z9cMHKxFYHNaydA0rQ',
@@ -56,7 +56,7 @@ export const Episodes = [
     },
     {
         id: 7,
-        title: 'TheLegendOfTheBlueSea',
+        title: 'The Legend Of The Blue Sea',
         imageUrl: TheLegendOfTheBlueSea,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1-pph4FYMfMBvExWfAlAVRw',
@@ -65,7 +65,7 @@ export const Episodes = [
     },
     {
         id: 8,
-        title: 'TheLegendOfTheBlueSea',
+        title: 'The Legend Of The Blue Sea',
         imageUrl: TheLegendOfTheBlueSea,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1e-qBQHmauI3jRQcPPa6Tgg',
@@ -74,7 +74,7 @@ export const Episodes = [
     },
     {
         id: 9,
-        title: 'TheLegendOfTheBlueSea',
+        title: 'The Legend Of The Blue Sea',
         imageUrl: TheLegendOfTheBlueSea,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1zQV-yEf4pNUlt8lAkgvP-Q',
@@ -83,7 +83,7 @@ export const Episodes = [
     },
     {
         id: 10,
-        title: 'TheLegendOfTheBlueSea',
+        title: 'The Legend Of The Blue Sea',
         imageUrl: TheLegendOfTheBlueSea,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1rU1DwnTzMqTHUbplkuCuzw',
@@ -92,7 +92,7 @@ export const Episodes = [
     },
     {
         id: 11,
-        title: 'TheLegendOfTheBlueSea',
+        title: 'The Legend Of The Blue Sea',
         imageUrl: TheLegendOfTheBlueSea,
         verificationCode: '123456',
         videolink: 'https://1024terabox.com/s/1duW_XfJ58RIwcx0Ha20J_Q',
@@ -101,7 +101,7 @@ export const Episodes = [
     },
     {
         id: 12,
-        title: 'TheLegendOfTheBlueSea',
+        title: 'The Legend Of The Blue Sea',
         imageUrl: TheLegendOfTheBlueSea,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1FY0gg4eDUQ9XCsH72Vl_wQ',
@@ -110,7 +110,7 @@ export const Episodes = [
     },
     {
         id: 13,
-        title: 'TheLegendOfTheBlueSea',
+        title: 'The Legend Of The Blue Sea',
         imageUrl: TheLegendOfTheBlueSea,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/18kx8nuO6KSrnqiMI59FXUQ',
@@ -119,7 +119,7 @@ export const Episodes = [
     },
     {
         id: 14,
-        title: 'TheLegendOfTheBlueSea',
+        title: 'The Legend Of The Blue Sea',
         imageUrl: TheLegendOfTheBlueSea,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1gaIuZxAysLr3TGu6qp9cwg',
@@ -128,7 +128,7 @@ export const Episodes = [
     },
     {
         id: 15,
-        title: 'TheLegendOfTheBlueSea',
+        title: 'The Legend Of The Blue Sea',
         imageUrl: TheLegendOfTheBlueSea,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1Ke--p1zQ2aMoqnw4LGCicQ',
@@ -137,7 +137,7 @@ export const Episodes = [
     },
     {
         id: 16,
-        title: 'TheLegendOfTheBlueSea',
+        title: 'The Legend Of The Blue Sea',
         imageUrl: TheLegendOfTheBlueSea,
         verificationCode: '123456',
         videolink: 'https://1024terabox.com/s/1BN07dgeUXiXKdzqmEB1bgQ',
@@ -146,7 +146,7 @@ export const Episodes = [
     },
     {
         id: 17,
-        title: 'TheLegendOfTheBlueSea',
+        title: 'The Legend Of The Blue Sea',
         imageUrl: TheLegendOfTheBlueSea,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1yy9apNmIcSblpm6sAB-1CA',
@@ -155,7 +155,7 @@ export const Episodes = [
     },
     {
         id: 18,
-        title: 'TheLegendOfTheBlueSea',
+        title: 'The Legend Of The Blue Sea',
         imageUrl: TheLegendOfTheBlueSea,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1Tl9wzzFUVISoklCFEMTBCA',
@@ -164,7 +164,7 @@ export const Episodes = [
     },
     {
         id: 19,
-        title: 'TheLegendOfTheBlueSea',
+        title: 'The Legend Of The Blue Sea',
         imageUrl: TheLegendOfTheBlueSea,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1IJR-jRSm9oCZHbZX9SbluQ',
@@ -173,7 +173,7 @@ export const Episodes = [
     },
     {
         id: 20,
-        title: 'TheLegendOfTheBlueSea',
+        title: 'The Legend Of The Blue Sea',
         imageUrl: TheLegendOfTheBlueSea,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1eWfIg0AWbDJNseOEx7aYOA',
@@ -182,7 +182,7 @@ export const Episodes = [
     },
     {
         id: 21,
-        title: 'TheLegendOfTheBlueSea',
+        title: 'The Legend Of The Blue Sea',
         imageUrl: TheLegendOfTheBlueSea,
         verificationCode: '123456',
         videolink: 'https://1024terabox.com/s/1ivDfyvP1gH4k4AnNjeiREQ',
@@ -191,7 +191,7 @@ export const Episodes = [
     },
     {
         id: 22,
-        title: 'TheLegendOfTheBlueSea',
+        title: 'The Legend Of The Blue Sea',
         imageUrl: TheLegendOfTheBlueSea,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1a1icKtZKMaiQzNniAjUG8A',
@@ -200,7 +200,7 @@ export const Episodes = [
     },
     {
         id: 23,
-        title: 'TheLegendOfTheBlueSea',
+        title: 'The Legend Of The Blue Sea',
         imageUrl: TheLegendOfTheBlueSea,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1fehW9_t2HxEbVdMxKRzuZw',
@@ -209,7 +209,7 @@ export const Episodes = [
     },
     {
         id: 24,
-        title: 'TheLegendOfTheBlueSea',
+        title: 'The Legend Of The Blue Sea',
         imageUrl: TheLegendOfTheBlueSea,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1gEjOwjyiz60JNkKJLpnuQA',
@@ -218,7 +218,7 @@ export const Episodes = [
     },
     {
         id: 25,
-        title: 'TheLegendOfTheBlueSea',
+        title: 'The Legend Of The Blue Sea',
         imageUrl: TheLegendOfTheBlueSea,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1fDXpLHg5ha1Vu8WQnHOBTQ',
@@ -227,7 +227,7 @@ export const Episodes = [
     },
     {
         id: 26,
-        title: 'TheLegendOfTheBlueSea',
+        title: 'The Legend Of The Blue Sea',
         imageUrl: TheLegendOfTheBlueSea,
         verificationCode: '123456',
         videolink: 'https://1024terabox.com/s/14lPqqEvBks4AAL8Z-jGSXg',
@@ -236,7 +236,7 @@ export const Episodes = [
     },
     {
         id: 27,
-        title: 'TheLegendOfTheBlueSea',
+        title: 'The Legend Of The Blue Sea',
         imageUrl: TheLegendOfTheBlueSea,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1BHXe8UhLFjxnCs3_WpD0JQ',
@@ -245,7 +245,7 @@ export const Episodes = [
     },
     {
         id: 28,
-        title: 'TheLegendOfTheBlueSea',
+        title: 'The Legend Of The Blue Sea',
         imageUrl: TheLegendOfTheBlueSea,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1zk4Ik7Bw9fuiUbDYbZtfHg',
@@ -254,7 +254,7 @@ export const Episodes = [
     },
     {
         id: 29,
-        title: 'TheLegendOfTheBlueSea',
+        title: 'The Legend Of The Blue Sea',
         imageUrl: TheLegendOfTheBlueSea,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1UR97TYScbWErxIp6Xsli4Q',
@@ -263,7 +263,7 @@ export const Episodes = [
     },
     {
         id: 30,
-        title: 'TheLegendOfTheBlueSea',
+        title: 'The Legend Of The Blue Sea',
         imageUrl: TheLegendOfTheBlueSea,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/16g_CGRYs0-07S8anJNUXCA',
@@ -272,7 +272,7 @@ export const Episodes = [
     },
     {
         id: 31,
-        title: 'TheLegendOfTheBlueSea',
+        title: 'The Legend Of The Blue Sea',
         imageUrl: TheLegendOfTheBlueSea,
         verificationCode: '123456',
         videolink: 'https://1024terabox.com/s/1VXo19yuamfRvMW_lWEXZOQ',
@@ -281,7 +281,7 @@ export const Episodes = [
     },
     {
         id: 32,
-        title: 'TheLegendOfTheBlueSea',
+        title: 'The Legend Of The Blue Sea',
         imageUrl: TheLegendOfTheBlueSea,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1XQ39_1ZfUpkTQEQ0Jj5fAQ',
@@ -290,7 +290,7 @@ export const Episodes = [
     },
     {
         id: 33,
-        title: 'TheLegendOfTheBlueSea',
+        title: 'The Legend Of The Blue Sea',
         imageUrl: TheLegendOfTheBlueSea,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1cPb0rfv3fAJjfn_zmINxCg',
@@ -299,7 +299,7 @@ export const Episodes = [
     },
     {
         id: 34,
-        title: 'TheLegendOfTheBlueSea',
+        title: 'The Legend Of The Blue Sea',
         imageUrl: TheLegendOfTheBlueSea,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1Eq8HToSr-qWR0EUcYzzAKA',
@@ -308,7 +308,7 @@ export const Episodes = [
     },
     {
         id: 35,
-        title: 'TheLegendOfTheBlueSea',
+        title: 'The Legend Of The Blue Sea',
         imageUrl: TheLegendOfTheBlueSea,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1lJqd0IGP0ga6NrXSMdIX0g',
@@ -317,7 +317,7 @@ export const Episodes = [
     },
     {
         id: 36,
-        title: 'TheLegendOfTheBlueSea',
+        title: 'The Legend Of The Blue Sea',
         imageUrl: TheLegendOfTheBlueSea,
         verificationCode: '123456',
         videolink: 'https://1024terabox.com/s/1V7A-QyT8RXOv1C66HiEh_Q',

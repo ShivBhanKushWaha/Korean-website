@@ -2,7 +2,7 @@ import { ItsOkayToNotToBeOkay } from "@assets"
 export const Episodes = [
     {
         id: 1,
-        title: 'ItsOkayToNotToBeOkay',
+        title: 'Its Okay To Not To Be Okay',
         imageUrl: ItsOkayToNotToBeOkay,
         verificationCode: '123456',
         videolink: 'https://1024terabox.com/s/1mEYBz8pPhpDXdu33JkoC9g',
@@ -11,7 +11,7 @@ export const Episodes = [
     },
     {
         id: 2,
-        title: 'ItsOkayToNotToBeOkay',
+        title: 'Its Okay To Not To Be Okay',
         imageUrl: ItsOkayToNotToBeOkay,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1eNvzG00SEKm1AigN4HBKCQ',
@@ -20,7 +20,7 @@ export const Episodes = [
     },
     {
         id: 3,
-        title: 'ItsOkayToNotToBeOkay',
+        title: 'Its Okay To Not To Be Okay',
         imageUrl: ItsOkayToNotToBeOkay,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1fR66vLx_YHDly4daB7Nwsw',
@@ -29,7 +29,7 @@ export const Episodes = [
     },
     {
         id: 4,
-        title: 'ItsOkayToNotToBeOkay',
+        title: 'Its Okay To Not To Be Okay',
         imageUrl: ItsOkayToNotToBeOkay,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1klGvKIYDemSBJBAG3i8ucg',
@@ -38,7 +38,7 @@ export const Episodes = [
     },
     {
         id: 5,
-        title: 'ItsOkayToNotToBeOkay',
+        title: 'Its Okay To Not To Be Okay',
         imageUrl: ItsOkayToNotToBeOkay,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1_Z0kCjGo1KTgVkeI8Fk-bw',
@@ -47,7 +47,7 @@ export const Episodes = [
     },
     {
         id: 6,
-        title: 'ItsOkayToNotToBeOkay',
+        title: 'Its Okay To Not To Be Okay',
         imageUrl: ItsOkayToNotToBeOkay,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1_z-jjZ3tFZEOQ6PLaE7OzA',
@@ -56,7 +56,7 @@ export const Episodes = [
     },
     {
         id: 7,
-        title: 'ItsOkayToNotToBeOkay',
+        title: 'Its Okay To Not To Be Okay',
         imageUrl: ItsOkayToNotToBeOkay,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1QjEnXPFpG8VG5J_B8-idhA',
@@ -65,7 +65,7 @@ export const Episodes = [
     },
     {
         id: 8,
-        title: 'ItsOkayToNotToBeOkay',
+        title: 'Its Okay To Not To Be Okay',
         imageUrl: ItsOkayToNotToBeOkay,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/19pFfdVoLhdVFwK98xXwLVg',
@@ -74,7 +74,7 @@ export const Episodes = [
     },
     {
         id: 9,
-        title: 'ItsOkayToNotToBeOkay',
+        title: 'Its Okay To Not To Be Okay',
         imageUrl: ItsOkayToNotToBeOkay,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1f9dyOekK3P-FANQ2zREqEw',
@@ -83,7 +83,7 @@ export const Episodes = [
     },
     {
         id: 10,
-        title: 'ItsOkayToNotToBeOkay',
+        title: 'Its Okay To Not To Be Okay',
         imageUrl: ItsOkayToNotToBeOkay,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1WrGYwj9euYP9D8niSqK10Q',
@@ -92,7 +92,7 @@ export const Episodes = [
     },
     {
         id: 11,
-        title: 'ItsOkayToNotToBeOkay',
+        title: 'Its Okay To Not To Be Okay',
         imageUrl: ItsOkayToNotToBeOkay,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1oj6ufzdsYC4Gns2WWV06cw',
@@ -101,7 +101,7 @@ export const Episodes = [
     },
     {
         id: 12,
-        title: 'ItsOkayToNotToBeOkay',
+        title: 'Its Okay To Not To Be Okay',
         imageUrl: ItsOkayToNotToBeOkay,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1nZ177LbXAMXxg-yBfFv4WQ',
@@ -110,7 +110,7 @@ export const Episodes = [
     },
     {
         id: 13,
-        title: 'ItsOkayToNotToBeOkay',
+        title: 'Its Okay To Not To Be Okay',
         imageUrl: ItsOkayToNotToBeOkay,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1YRnVQXWT7BH5n7O5gIseWw',
@@ -119,7 +119,7 @@ export const Episodes = [
     },
     {
         id: 14,
-        title: 'ItsOkayToNotToBeOkay',
+        title: 'Its Okay To Not To Be Okay',
         imageUrl: ItsOkayToNotToBeOkay,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1bzd199K_1UXyGrcFlmw_zQ',
@@ -128,7 +128,7 @@ export const Episodes = [
     },
     {
         id: 15,
-        title: 'ItsOkayToNotToBeOkay',
+        title: 'Its Okay To Not To Be Okay',
         imageUrl: ItsOkayToNotToBeOkay,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1NDnA0LLQCz45jv3RkH50GQ',
@@ -137,7 +137,7 @@ export const Episodes = [
     },
     {
         id: 16,
-        title: 'ItsOkayToNotToBeOkay',
+        title: 'Its Okay To Not To Be Okay',
         imageUrl: ItsOkayToNotToBeOkay,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1MfC7SJ7DT35FNebnV6Y08A',

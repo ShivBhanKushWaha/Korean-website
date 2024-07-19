@@ -2,7 +2,7 @@ import { DotOfSun } from "../../../../assets"
 export const Episodes = [
     {
         id: 1,
-        title: 'DotOfSun',
+        title: 'Descendants of the sun',
         imageUrl: DotOfSun,
         verificationCode: '123456',
         videolink: 'https://1024terabox.com/s/1XtU1tTFSN7q5z8-SSrnSOw',
@@ -11,7 +11,7 @@ export const Episodes = [
     },
     {
         id: 2,
-        title: 'DotOfSun',
+        title: 'Descendants of the sun',
         imageUrl: DotOfSun,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1O4WfJqi84e9saH_cKt8Daw',
@@ -20,7 +20,7 @@ export const Episodes = [
     },
     {
         id: 3,
-        title: 'DotOfSun',
+        title: 'Descendants of the sun',
         imageUrl: DotOfSun,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1wt5pY2bM86638x8kPAvs5w',
@@ -29,7 +29,7 @@ export const Episodes = [
     },
     {
         id: 4,
-        title: 'DotOfSun',
+        title: 'Descendants of the sun',
         imageUrl: DotOfSun,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1khbwPRLYrgVPW_7UUtJPCQ',
@@ -38,7 +38,7 @@ export const Episodes = [
     },
     {
         id: 5,
-        title: 'DotOfSun',
+        title: 'Descendants of the sun',
         imageUrl: DotOfSun,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/16G2_eONjXWRhBih-utDUfQ',
@@ -47,7 +47,7 @@ export const Episodes = [
     },
     {
         id: 6,
-        title: 'DotOfSun',
+        title: 'Descendants of the sun',
         imageUrl: DotOfSun,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1EqetdXvYfvfIdbARwHW1RQ',
@@ -56,7 +56,7 @@ export const Episodes = [
     },
     {
         id: 7,
-        title: 'DotOfSun',
+        title: 'Descendants of the sun',
         imageUrl: DotOfSun,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1nLyAeXDDJBE5-AP8Fs9azw',
@@ -65,7 +65,7 @@ export const Episodes = [
     },
     {
         id: 8,
-        title: 'DotOfSun',
+        title: 'Descendants of the sun',
         imageUrl: DotOfSun,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1U6gvOuno3xutLnjWuFlu4Q',
@@ -74,7 +74,7 @@ export const Episodes = [
     },
     {
         id: 9,
-        title: 'DotOfSun',
+        title: 'Descendants of the sun',
         imageUrl: DotOfSun,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/17eE2UsAo-RqO4e9l-638IQ',
@@ -83,7 +83,7 @@ export const Episodes = [
     },
     {
         id: 10,
-        title: 'DotOfSun',
+        title: 'Descendants of the sun',
         imageUrl: DotOfSun,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1mJp55JxZbyP_HPv8Nab2eA',
@@ -92,7 +92,7 @@ export const Episodes = [
     },
     {
         id: 11,
-        title: 'DotOfSun',
+        title: 'Descendants of the sun',
         imageUrl: DotOfSun,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1bRvpqM9QgCxOsHkXg-YTCQ',
@@ -101,7 +101,7 @@ export const Episodes = [
     },
     {
         id: 12,
-        title: 'DotOfSun',
+        title: 'Descendants of the sun',
         imageUrl: DotOfSun,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1Sux0v2agUtQ2frLAsVFxSw',
@@ -110,7 +110,7 @@ export const Episodes = [
     },
     {
         id: 13,
-        title: 'DotOfSun',
+        title: 'Descendants of the sun',
         imageUrl: DotOfSun,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/10nKMkBzzK4KzLqp_-G05_A',
@@ -119,7 +119,7 @@ export const Episodes = [
     },
     {
         id: 14,
-        title: 'DotOfSun',
+        title: 'Descendants of the sun',
         imageUrl: DotOfSun,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1Oqb4E9O9gCikUYQ2QjGM7w',
@@ -128,7 +128,7 @@ export const Episodes = [
     },
     {
         id: 15,
-        title: 'DotOfSun',
+        title: 'Descendants of the sun',
         imageUrl: DotOfSun,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1WWSbwuOSxzFToNJkLUMuSw',
@@ -137,7 +137,7 @@ export const Episodes = [
     },
     {
         id: 16,
-        title: 'DotOfSun',
+        title: 'Descendants of the sun',
         imageUrl: DotOfSun,
         verificationCode: '654321',
         videolink: 'https://1024terabox.com/s/1S35BiTiNGjwayiFp9Q3SuA',
