@@ -4,10 +4,10 @@ export const Episodes = [
         id: 1,
         title: 'My Girl Friend Is An Alien',
         imageUrl: MyGirlFriendIsAnAlien,
-        verificationCode: '',
-        videolink: '',
+        verificationCode: 'Love12345',
+        videolink: 'https://1024terabox.com/s/1Xj7lk5Bg_6x-Tf0tCPwM3w',
         youtubeLink: '',
-        uploaded: false,
+        uploaded: true,
     },
     {
         id: 2,
