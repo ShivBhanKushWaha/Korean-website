@@ -4,10 +4,10 @@ export const Episodes = [
         id: 1,
         title: 'W Two Worlds Apart',
         imageUrl: WTwoWorldApart,
-        verificationCode: '12345Love',
+        verificationCode: 'Love12345',
         videolink: 'https://1024terabox.com/s/1mEYBz8pPhpDXdu33JkoC9g',
         youtubeLink: '',
-        uploaded: false,
+        uploaded: true,
     },
     {
         id: 2,

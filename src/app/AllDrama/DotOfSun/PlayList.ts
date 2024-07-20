@@ -4,7 +4,7 @@ export const Episodes = [
         id: 1,
         title: 'Descendants of the sun',
         imageUrl: DotOfSun,
-        verificationCode: '123456',
+        verificationCode: 'Love12345',
         videolink: 'https://1024terabox.com/s/1XtU1tTFSN7q5z8-SSrnSOw',
         youtubeLink: 'https://youtu.be/ppgFkzQ10ow?si=Jofn2FQiGjkCtjbd',
         uploaded: true,

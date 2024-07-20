@@ -6,8 +6,8 @@ export const Episodes = [
         imageUrl: MarryMyHusband,
         verificationCode: '',
         videolink: '',
-        youtubeLink: 'https://youtu.be/ppgFkzQ10ow?si=Jofn2FQiGjkCtjbd',
-        uploaded: true,
+        youtubeLink: '',
+        uploaded: false,
     },
     {
         id: 2,
