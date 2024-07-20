@@ -35,6 +35,12 @@ const EpisodeCard: React.FC<EpisodeCardProps> = ({ episode }) => {
       setPopupLink(episode.youtubeLink);
     }
     setIsOpen(false);
+    setVerificationCode('');
+  };
+
+  const handleCancel = () => {
+    setIsOpen(false);
+    setVerificationCode('');
   };
 
   return (
@@ -85,7 +91,7 @@ const EpisodeCard: React.FC<EpisodeCardProps> = ({ episode }) => {
               Verify
             </button>
             <button
-              onClick={() => setIsOpen(false)}
+              onClick={handleCancel}
               className="bg-red-500 text-black px-4 py-2 rounded w-full text-center mt-2"
             >
               Cancel
