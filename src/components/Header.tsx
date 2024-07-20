@@ -53,7 +53,7 @@ const Header = () => {
 
           <button 
             onClick={handleContactUs} 
-            className="hidden md:block bg-red-300 px-5 py-2 hover:bg-red-500 rounded-lg font-mono text-white"
+            className="hidden md:block bg-teal-400 px-5 py-2 hover:bg-teal-500 rounded-lg text-white font-sans transition-all duration-300 text-[20px]"
           >
             ContactUs
           </button>
