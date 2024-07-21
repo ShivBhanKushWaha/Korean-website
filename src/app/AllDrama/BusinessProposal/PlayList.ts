@@ -14,7 +14,7 @@ export const Episodes = [
         title: 'Business Proposal',
         imageUrl: BusinessProposal,
         verificationCode: '',
-        videolink: '',
+        videolink: 'https://1024terabox.com/s/1opkqO7JNwONylgOusRXtrA',
         youtubeLink: '',
         uploaded: false,
     },
