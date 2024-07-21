@@ -5,6 +5,27 @@ import { BusinessProposal, CuteBodyGaurd, DineWithLove, DotOfSun, Encounter, Ext
 
 const HomePage = () => {
   const AllKDrama = [
+    // complete published
+    {
+      img: LoveIsSweet,
+      routes: 'LoveIsSweet',
+      title: 'Love Is Sweet',
+      description: 'Total 36 episodes'
+    },
+    {
+      img: WTwoWorldApart,
+      routes: 'WTwoWorldApart',
+      title: 'W Two Worlds Apart',
+      description: 'Total 16 episodes'
+    },
+    // partiall published or ongoing series
+    {
+      img: DotOfSun,
+      routes: 'DotOfSun',
+      title: 'Descendants of the sun',
+      description: 'Total 16 episodes'
+    },
+    // not published yet
     {
       img: BusinessProposal,
       routes: 'BusinessProposal',
@@ -21,12 +42,6 @@ const HomePage = () => {
       img: DineWithLove,
       routes: 'DineWithLove',
       title: 'Dine With Love',
-      description: 'Total 16 episodes'
-    },
-    {
-      img: DotOfSun,
-      routes: 'DotOfSun',
-      title: 'Descendants of the sun',
       description: 'Total 16 episodes'
     },
     {
@@ -70,12 +85,6 @@ const HomePage = () => {
       routes: 'LieToLove',
       title: 'Lie To Love',
       description: 'Total 32 episodes'
-    },
-    {
-      img: LoveIsSweet,
-      routes: 'LoveIsSweet',
-      title: 'Love Is Sweet',
-      description: 'Total 36 episodes'
     },
     {
       img: LoveMeLikeIDo,
@@ -160,12 +169,6 @@ const HomePage = () => {
       routes: 'TimeToFallInLove',
       title: 'Time To Fall In Love',
       description: 'Total 24 episodes'
-    },
-    {
-      img: WTwoWorldApart,
-      routes: 'WTwoWorldApart',
-      title: 'W Two Worlds Apart',
-      description: 'Total 16 episodes'
     },
   ];
 
