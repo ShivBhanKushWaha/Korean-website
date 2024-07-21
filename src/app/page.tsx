@@ -5,6 +5,13 @@ import { BusinessProposal, CuteBodyGaurd, DineWithLove, DotOfSun, Encounter, Ext
 
 const HomePage = () => {
   const AllKDrama = [
+    // partiall published or ongoing series
+    {
+      img: DotOfSun,
+      routes: 'DotOfSun',
+      title: 'Descendants of the sun',
+      description: 'Total 16 episodes'
+    },
     // complete published
     {
       img: LoveIsSweet,
@@ -16,13 +23,6 @@ const HomePage = () => {
       img: WTwoWorldApart,
       routes: 'WTwoWorldApart',
       title: 'W Two Worlds Apart',
-      description: 'Total 16 episodes'
-    },
-    // partiall published or ongoing series
-    {
-      img: DotOfSun,
-      routes: 'DotOfSun',
-      title: 'Descendants of the sun',
       description: 'Total 16 episodes'
     },
     // not published yet

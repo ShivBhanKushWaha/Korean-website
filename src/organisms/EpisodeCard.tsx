@@ -60,7 +60,7 @@ const EpisodeCard: React.FC<EpisodeCardProps> = ({ episode }) => {
           {episode.uploaded ? (
             <button
               onClick={() => setIsOpen(true)}
-              className="bg-blue-500 hover:bg-blue-600 text-black px-4 py-2 rounded w-full text-center"
+              className="bg-teal-500 hover:bg-teal-600 text-white px-4 py-2 rounded w-full text-center"
             >
               View Episode
             </button>
@@ -86,7 +86,7 @@ const EpisodeCard: React.FC<EpisodeCardProps> = ({ episode }) => {
             />
             <button
               onClick={handleVerification}
-              className="bg-green-500 text-black px-4 py-2 rounded w-full text-center"
+              className="bg-teal-500 text-black px-4 py-2 rounded w-full text-center"
             >
               Verify
             </button>

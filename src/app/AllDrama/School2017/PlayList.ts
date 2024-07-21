@@ -7,7 +7,7 @@ export const Episodes = [
         verificationCode: '',
         videolink: '',
         youtubeLink: 'https://youtu.be/ppgFkzQ10ow?si=Jofn2FQiGjkCtjbd',
-        uploaded: true,
+        uploaded: false,
     },
     {
         id: 2,

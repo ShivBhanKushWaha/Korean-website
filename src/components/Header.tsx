@@ -36,24 +36,29 @@ const Header = () => {
           <ul className="hidden md:flex gap-x-6 text-black">
             <li>
               <Link href="/How-It-Work" className="text-white hover:scale-105 transition-transform ease-in duration-300 font-semibold text-[18px] cursor-pointer">
-                How It Work
+                HowItWork
               </Link>
             </li>
             <li>
               <Link href="/Who-Am-I" className="text-white hover:scale-105 transition-transform ease-in duration-300 font-semibold text-[18px] cursor-pointer">
-                Who Am I
+                WhoAmI
               </Link>
             </li>
             <li>
               <Link href="/" className="text-white hover:scale-105 transition-transform ease-in duration-300 font-semibold text-[18px] cursor-pointer">
-                All Drama
+                AllDrama
+              </Link>
+            </li>
+            <li>
+              <Link href="/How-To-Get-All-Code" className="text-white hover:scale-105 transition-transform ease-in duration-300 font-semibold text-[18px] cursor-pointer">
+                GetAllCode
               </Link>
             </li>
           </ul>
 
           <button 
             onClick={handleContactUs} 
-            className="hidden md:block bg-teal-400 px-5 py-2 hover:bg-teal-500 rounded-lg text-white font-sans transition-all duration-300 text-[20px]"
+            className="hidden md:block bg-teal-400 px-5 py-1 hover:bg-teal-500 rounded-lg text-white font-sans transition-all duration-300 text-[20px]"
           >
             ContactUs
           </button>
@@ -61,7 +66,7 @@ const Header = () => {
           {/* Mobile Menu Icon */}
           <div className="md:hidden flex items-center">
             <button onClick={toggleMenu} className="text-white focus:outline-none">
-              {isMenuOpen ? <FiX size={24} /> : <FiMenu size={24} />}
+              {isMenuOpen ? <FiX size={28} /> : <FiMenu size={28} />}
             </button>
           </div>
         </div>
@@ -73,22 +78,27 @@ const Header = () => {
           <ul className="flex flex-col items-center gap-y-4 py-4 text-black">
             <li onClick={() => setIsMenuOpen(false)}>
               <Link href="/How-It-Work" className="text-white font-semibold text-[18px] cursor-pointer" onClick={() => router.push('/How-It-Work')}>
-                How It Work
+                HowItWork
               </Link>
             </li>
             <li onClick={() => setIsMenuOpen(false)}>
               <Link href="/Who-Am-I" className="text-white font-semibold text-[18px] cursor-pointer" >
-                Who Am I
+                WhoAmI
               </Link>
             </li>
             <li onClick={() => setIsMenuOpen(false)}>
-              <Link href="/" className="text-white font-semibold text-[18px] cursor-pointer" onClick={() => router.push('/')}>
-                All Drama
+              <Link href="/" className="text-white font-semibold text-[18px] cursor-pointer">
+                AllDrama
+              </Link>
+            </li>
+            <li onClick={() => setIsMenuOpen(false)}>
+              <Link href="/How-To-Get-All-Code" className="text-white hover:scale-105 transition-transform ease-in duration-300 font-semibold text-[18px] cursor-pointer">
+                GetAllCode
               </Link>
             </li>
             <li onClick={() => setIsMenuOpen(false)}>
               <button 
-                className="bg-red-300 px-5 py-2 hover:bg-red-500 rounded-lg font-mono text-white" 
+                className="bg-red-300 px-5 py-1 hover:bg-red-500 rounded-lg font-mono text-white" 
                 onClick={handleContactUs}
               >
                 ContactUs

@@ -19,14 +19,14 @@ const Popup: React.FC<PopupProps> = ({ message, onClose, link }) => {
               href={link}
               target="_blank"
               rel="noopener noreferrer"
-              className="block mt-2 text-blue-500 underline mb-4"
+              className="block mt-2 text-teal-500 underline mb-4"
             >
               Watch Video
             </Link>
           )}
           <button
             onClick={onClose}
-            className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded"
+            className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded"
           >
             Close
           </button>

@@ -4,10 +4,10 @@ export const Episodes = [
         id: 1,
         title: 'Business Proposal',
         imageUrl: BusinessProposal,
-        verificationCode: 'Love12345',
+        verificationCode: '',
         videolink: 'https://1024terabox.com/s/1CYgWdUdb8nKe7WjGOsgE1Q',
         youtubeLink: '',
-        uploaded: true,
+        uploaded: false,
     },
     {
         id: 2,

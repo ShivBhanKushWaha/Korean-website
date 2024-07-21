@@ -7,7 +7,7 @@ export const Episodes = [
         verificationCode: 'Love12345',
         videolink: 'https://1024terabox.com/s/1Z-bUo7DCLHVt7DlQBt-WCw',
         youtubeLink: '',
-        uploaded: true,
+        uploaded: false,
     },
     {
         id: 2,

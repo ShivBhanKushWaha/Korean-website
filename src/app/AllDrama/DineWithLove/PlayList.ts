@@ -4,10 +4,10 @@ export const Episodes = [
         id: 1,
         title: 'Dine With Love',
         imageUrl: DineWithLove,
-        verificationCode: 'Love12345',
+        verificationCode: '',
         videolink: 'https://1024terabox.com/s/1_DH8ddgvNVpC3-kQY2kMRg',
         youtubeLink: '',
-        uploaded: true,
+        uploaded: false,
     },
     {
         id: 2,

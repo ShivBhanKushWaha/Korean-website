@@ -37,11 +37,6 @@ const VideoExplanation = () => {
         If the code is correct, a popup will confirm your verification, and you will be able to access the full episode. If the code is incorrect, a message will inform you that the verification has failed, and you can rewatch the YouTube video to try again.
       </p>
 
-      <h2 className="text-xl sm:text-2xl font-semibold mb-3">Watch Before It&apos;s Paid</h2>
-      <p className="mb-4 text-justify">
-        Don&apos;t miss out! Our videos are available for free for a limited time before they become paid content. Be sure to watch them as soon as they are published to enjoy them without any cost. Once the free period ends, you will need to purchase access to view the episodes.
-      </p>
-
       <h2 className="text-xl sm:text-2xl font-semibold mb-3 text-red-600">Warning</h2>
       <ul className="list-disc list-inside mb-4 text-justify text-red-600">
         <li>Do not share any verification codes in the YouTube comments.</li>
@@ -51,7 +46,6 @@ const VideoExplanation = () => {
       <ul className="list-disc list-inside mb-4 text-justify">
         <li>To watch the full video, you need to install the TeraBox app. Download it for <Link href="https://play.google.com/store/apps/details?id=com.dubox.drive&pcampaignid=web_share" target='_blank' className="text-teal-500">Android</Link> or for <Link href="https://terabox-cloud-storage-space.en.softonic.com/?utm_source=SEM&utm_medium=paid&utm_campaign=EN_IN_KW_PC_PP_TeraBox_PSP&gad_source=1&gclid=Cj0KCQjwwO20BhCJARIsAAnTIVRfCTKw6uqrjWthCKgyxhrQnC7t0sw-uovdxNiKk1Gi0Lh2lfk1i7gaAqAYEALw_wcB" target='_blank' className="text-teal-500">PC</Link>.</li>
         <li>If the provided download links do not work, search for &quot;Tera Box&quot; in the Play Store. TeraBox offers 1024 GB of free cloud storage.</li>
-        <li>To get verification codes for up to 5 chosen dramas, click on <Link href="https://www.instagram.com/black_lover14444/" target='_blank' className="text-teal-500">Contact Us</Link> to be redirected to our Instagram page. Message us, pay the fee of ₹149, and specify up to 5 dramas for which you want to receive the verification codes.</li>
       </ul>
 
       <h2 className="text-xl sm:text-2xl font-semibold mb-3">Subscribe to Our YouTube Channel</h2>

@@ -2,6 +2,7 @@
 import React from 'react';
 import { EpisodeCard } from '@/organisms';
 import { Episodes } from "./PlayList"
+import { verificationCode } from '@/AllVerificationCode/VerificationCode';
 
 const EpisodesPage = () => {
   return (
