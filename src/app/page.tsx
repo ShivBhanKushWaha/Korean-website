@@ -30,7 +30,6 @@ const HomePage = () => {
       title: 'Dine With Love',
       description: 'Total 16 episodes'
     },
-    // not published yet
     {
       img: BusinessProposal,
       routes: 'BusinessProposal',
@@ -38,16 +37,17 @@ const HomePage = () => {
       description: 'Total 12 episodes'
     },
     {
-      img: CuteBodyGaurd,
-      routes: 'CuteBodyGaurd',
-      title: 'Cute Body Gaurd',
-      description: 'Total 24 episodes'
-    },
-    {
       img: Encounter,
       routes: 'Encounter',
       title: 'Encounter',
       description: 'Total 16 episodes'
+    },
+    // not published yet
+    {
+      img: CuteBodyGaurd,
+      routes: 'CuteBodyGaurd',
+      title: 'Cute Body Gaurd',
+      description: 'Total 24 episodes'
     },
     {
       img: ExtraOrdinaryYou,
