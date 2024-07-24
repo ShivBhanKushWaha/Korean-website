@@ -4,10 +4,10 @@ export const Episodes = [
         id: 1,
         title: 'Cute Body Gaurd',
         imageUrl: CuteBodyGaurd,
-        verificationCode: '',
-        videolink: 'https://1024terabox.com/s/1uxLAnNuCd6qqBIep6uKScw',
+        verificationCode: '£',
+        videolink: 'https://1024terabox.com/s/1BRIHxX3LlFlJb-zujKs5og',
         youtubeLink: '',
-        uploaded: false,
+        uploaded: true,
     },
     {
         id: 2,

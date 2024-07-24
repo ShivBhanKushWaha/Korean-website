@@ -1,49 +1,126 @@
+'use client'
+import React, { useState } from 'react';
+import { verificationCode } from '@/AllVerificationCode/VerificationCode';
+import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-import React from 'react';
 
-const FeeExplanation = () => {
+type Episode = {
+  id: number;
+  title: string;
+  verificationCode: string;
+};
+
+type Drama = {
+  id: number;
+  dramaName: string;
+  status: string;
+  episodes: Episode[];
+};
+
+const dramas: Drama[] = verificationCode;
+
+const MyComponent = () => {
+  const router = useRouter();
+  const [selectedDrama, setSelectedDrama] = useState<Drama | null>(null);
+  const [showCodes, setShowCodes] = useState<boolean>(false);
+  const [isPaymentAvailable, setIsPaymentAvailable] = useState<boolean>(false)
+
+  const handleViewCodes = () => {
+    setShowCodes(!showCodes);
+  };
+
+  const handleBuyAllSeries = () => {
+    window.open('https://www.instamojo.com/@Romantic_love_kdrama/l45a8661dd4894f81a22212adad880e2b/')
+  };
+
+  const handleBuySeriesCodes = (drama: Drama) => {
+    // Implement logic for purchasing codes for the selected series
+    router.push(`/BuySeriesCodes/${drama.id}`);
+  };
+
   return (
-    <div className="max-w-3xl mx-auto p-4 sm:p-6">
-      <h1 className="text-2xl sm:text-3xl font-bold mb-4 text-center">Accessing Verification Codes for All Dramas</h1>
+    <div className="min-h-screen bg-gray-100 p-6">
+      {selectedDrama ? (
+        <div className="bg-white p-6 rounded-lg shadow-lg max-w-4xl mx-auto">
+          <h1 className="text-2xl font-bold mb-4">{selectedDrama.dramaName}</h1>
+          <button
+            onClick={() => setSelectedDrama(null)}
+            className="bg-teal-500 text-white px-3 py-1.5 rounded hover:bg-teal-600 mb-4">
+            Back to Dramas
+          </button>
 
-      <p className="mb-4 text-justify">
-        Welcome to our fee explanation page. Here, we outline the process and fee structure for accessing verification codes for all episodes of all dramas.
-      </p>
-
-      <h2 className="text-xl sm:text-2xl font-semibold mb-3">Fee Structure</h2>
-      <p className="mb-4 text-justify">
-        To obtain the verification codes for all episodes across all dramas, you will need to pay a one-time fee. This fee covers the cost of accessing the verification codes for every drama in our collection.
-      </p>
-      <p className="mb-4 text-justify">
-        The fee for accessing verification codes for all dramas is ₹119. This fee allows you to receive verification codes for every drama, which you can then use to unlock the full episodes.
-      </p>
-
-      <h2 className="text-xl sm:text-2xl font-semibold mb-3">How to Pay</h2>
-      <p className="mb-4 text-justify">
-        To make the payment and receive verification codes for all dramas, please follow these steps:
-      </p>
-      <ul className="list-disc list-inside mb-4 text-justify">
-        <li>Click on <Link href="https://www.instagram.com/black_lover14444/" target='_blank' className="text-teal-500">Contact Us</Link> to be redirected to our Instagram page.</li>
-        <li>Send us a message on Instagram, indicating that you want to access verification codes for all dramas.</li>
-        <li>Complete the payment of ₹119 as instructed by us.</li>
-      </ul>
-
-      <h2 className="text-xl sm:text-2xl font-semibold mb-3">Payment Confirmation</h2>
-      <p className="mb-4 text-justify">
-        After completing the payment, you will receive the verification codes for all the dramas. Ensure you provide accurate details to receive the correct codes for every episode.
-      </p>
-
-      <h2 className="text-xl sm:text-2xl font-semibold mb-3">Contact Us</h2>
-      <p className="mb-4 text-justify">
-        For any questions or issues regarding the payment or verification codes, please feel free to reach out to us via our Instagram page or email us at <Link href="mailto:petersonwatson770@gmail.com" className="text-teal-500">petersonwatson770@gmail.com</Link>.
-      </p>
-
-      <h2 className="text-xl sm:text-2xl font-semibold mb-3">Subscribe to Our YouTube Channel</h2>
-      <p className="mb-4 text-justify">
-        Don’t forget to subscribe to our YouTube channel to stay updated with the latest video series. Click <Link href="https://www.youtube.com/@romanticlovekdrama" target='_blank' className="text-teal-500">here</Link> to visit and subscribe to our channel.
-      </p>
+          {selectedDrama.status === 'paid' ? (
+            <div className="text-center">
+              <button
+                onClick={() => handleBuySeriesCodes(selectedDrama)}
+                className="bg-rose-500 hover:bg-rose-600 text-white py-1.5 px-3 rounded">
+                Buy Series Codes
+              </button>
+            </div>
+          ) : (
+            <div>
+              <button
+                onClick={() => handleViewCodes()}
+                className="bg-teal-500 hover:bg-teal-600 text-white py-1.5 px-3 rounded mb-4">
+                {showCodes ? 'Hide Codes' : 'Show Codes'}
+              </button>
+              {showCodes && (
+                <ul className="pl-5 list-decimal">
+                  {selectedDrama.episodes.map((episode) => (
+                    <li key={episode.id} className="mb-2">
+                      <div className="p-4 border rounded bg-gray-50">
+                        <h2 className="font-semibold text-lg">{episode.title}</h2>
+                        <span className="text-gray-600">{episode.verificationCode}</span>
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          )}
+        </div>
+      ) : (
+        <div className="bg-white p-6 rounded-lg shadow-lg max-w-4xl mx-auto">
+          <h1 className="text-3xl font-bold mb-4">Dramas</h1>
+          <div className="flex justify-between mb-4">
+            {
+              isPaymentAvailable ? 
+              <button onClick={() => handleBuyAllSeries()} rel="im-checkout" data-text="Pay" data-css-style="color:#ffffff; background:#75c26a; width:300px; border-radius:4px" className="bg-teal-500 hover:bg-teal-600 text-white py-1.5 px-3 rounded" data-layout="vertical">Buy All Series Code</button> 
+              : 
+              <button
+                className="bg-rose-500 text-white py-1.5 px-3 rounded cursor-not-allowed">
+                Buy All Code Not Available Yet
+              </button>
+            }
+          </div>
+          <ul className="list-none">
+            {dramas.map((drama) => (
+              <li key={drama.id} className="mb-2">
+                <div className="flex flex-col sm:flex-row items-center justify-between p-4 border rounded bg-gray-50">
+                  <div className="bg-teal-500 text-center text-white px-3 py-1.5 rounded w-full sm:w-1/2 mb-2 sm:mb-0">
+                    {drama.dramaName}
+                  </div>
+                  {drama.status === 'paid' ? (
+                    <button
+                      onClick={() => handleBuySeriesCodes(drama)}
+                      className="bg-rose-500 hover:bg-rose-600 text-white py-1 px-3 rounded sm:ml-4 w-full sm:w-auto">
+                      Buy Series Codes
+                    </button>
+                  ) : (
+                    <button
+                      onClick={() => setSelectedDrama(drama)}
+                      className="bg-teal-500 hover:bg-teal-600 text-white py-1 px-3 rounded sm:ml-4 w-full sm:w-auto">
+                      View Code
+                    </button>
+                  )}
+                </div>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
     </div>
   );
-}
+};
 
-export default FeeExplanation;
+export default MyComponent;

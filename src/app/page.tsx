@@ -5,14 +5,13 @@ import { BusinessProposal, CuteBodyGaurd, DineWithLove, DotOfSun, Encounter, Ext
 
 const HomePage = () => {
   const AllKDrama = [
-    // partiall published or ongoing series
+    // complete published
     {
       img: DotOfSun,
       routes: 'DotOfSun',
       title: 'Descendants of the sun',
       description: 'Total 16 episodes'
     },
-    // complete published
     {
       img: LoveIsSweet,
       routes: 'LoveIsSweet',
@@ -23,6 +22,12 @@ const HomePage = () => {
       img: WTwoWorldApart,
       routes: 'WTwoWorldApart',
       title: 'W Two Worlds Apart',
+      description: 'Total 16 episodes'
+    },
+    {
+      img: DineWithLove,
+      routes: 'DineWithLove',
+      title: 'Dine With Love',
       description: 'Total 16 episodes'
     },
     // not published yet
@@ -37,12 +42,6 @@ const HomePage = () => {
       routes: 'CuteBodyGaurd',
       title: 'Cute Body Gaurd',
       description: 'Total 24 episodes'
-    },
-    {
-      img: DineWithLove,
-      routes: 'DineWithLove',
-      title: 'Dine With Love',
-      description: 'Total 16 episodes'
     },
     {
       img: Encounter,
