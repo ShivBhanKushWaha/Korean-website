@@ -31,7 +31,7 @@ const EpisodeCard: React.FC<EpisodeCardProps> = ({ episode }) => {
       setPopupMessage('Verification successful! You can now access the episode.');
       setPopupLink(episode.videolink);
     } else {
-      setPopupMessage('Invalid verification code. You can still watch the YouTube video below.');
+      setPopupMessage('Invalid verification code. for free kdrama check GetAllCode');
       setPopupLink(episode.youtubeLink);
     }
     setIsOpen(false);
