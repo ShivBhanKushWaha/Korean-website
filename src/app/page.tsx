@@ -1,5 +1,6 @@
 // pages/index.tsx or HomePage.tsx
-import React from 'react';
+'use client'
+import React, { useEffect } from 'react';
 import { Card } from '@organisms';
 import { BusinessProposal, CuteBodyGaurd, DineWithLove, DotOfSun, Encounter, ExtraOrdinaryYou, FallInLove, Goblin, ItsOkayToNotToBeOkay, KingTheLand, LieToLove, LoveIsSweet, LoveMeLikeIDo, LoveScenery, MarryMyHusband, MeltingMeSoftly, MyDemon, MyGirlFriendIsAnAlien, OurSecret, PutYourHeadOnMyShoulder, QueenOfTears, School2017, SnowDrop, TheLegendOfTheBlueSea, TheLoveYouGaveMe, TimeToFallInLove, WTwoWorldApart, } from '@assets';
 
@@ -44,16 +45,16 @@ const HomePage = () => {
     },
     // not published yet
     {
-      img: CuteBodyGaurd,
-      routes: 'CuteBodyGaurd',
-      title: 'Cute Body Gaurd',
-      description: 'Total 24 episodes'
-    },
-    {
       img: ExtraOrdinaryYou,
       routes: 'ExtraOrdinaryYou',
       title: 'Extra Ordinary You',
       description: 'Total 16 episodes'
+    },
+    {
+      img: CuteBodyGaurd,
+      routes: 'CuteBodyGaurd',
+      title: 'Cute Body Gaurd',
+      description: 'Total 24 episodes'
     },
     {
       img: FallInLove,
@@ -170,6 +171,17 @@ const HomePage = () => {
       description: 'Total 24 episodes'
     },
   ];
+  useEffect(() => {
+    const disableRightClick = (event: MouseEvent) => {
+      event.preventDefault();
+    };
+
+    document.addEventListener("contextmenu", disableRightClick);
+
+    return () => {
+      document.removeEventListener("contextmenu", disableRightClick);
+    };
+  }, []);
 
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 justify-center py-4 mx-2 sm:mx-10">

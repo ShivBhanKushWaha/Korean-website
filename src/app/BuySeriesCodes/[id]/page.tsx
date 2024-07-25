@@ -1,5 +1,5 @@
 'use client'
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useRouter, useParams } from 'next/navigation';
 import { verificationCode } from '@/AllVerificationCode/VerificationCode';
 
@@ -23,13 +23,27 @@ const BuySeriesCodesPage = () => {
     const { id } = useParams();
     const [seriesPayAvailable, setSeriesPayAvailable] = useState<boolean>(false);
     const drama = dramas.find((d) => d.id === Number(id));
-    if (!drama) {
-        return <div className="min-h-screen bg-gray-100 p-6">Drama not found</div>;
-    }
 
     const handleBuySeries = () => {
         window.open('https://www.instamojo.com/@Romantic_love_kdrama/le359a03347d240338f295bd747943d32/');
     };
+    
+    useEffect(() => {
+        const disableRightClick = (event: MouseEvent) => {
+            event.preventDefault();
+        };
+
+        document.addEventListener("contextmenu", disableRightClick);
+
+        return () => {
+            document.removeEventListener("contextmenu", disableRightClick);
+        };
+    }, []);
+
+    if (!drama) {
+        return <div className="min-h-screen bg-gray-100 p-6">Drama not found</div>;
+    }
+
 
     return (
         <div className="min-h-screen bg-gray-100 p-6 flex items-center justify-center">

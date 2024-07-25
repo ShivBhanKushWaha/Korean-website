@@ -1,5 +1,5 @@
 'use client'
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { verificationCode } from '@/AllVerificationCode/VerificationCode';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
@@ -25,6 +25,18 @@ const MyComponent = () => {
   const [showCodes, setShowCodes] = useState<boolean>(false);
   const [isPaymentAvailable, setIsPaymentAvailable] = useState<boolean>(false)
 
+  useEffect(() => {
+    const disableRightClick = (event: MouseEvent) => {
+      event.preventDefault();
+    };
+
+    document.addEventListener("contextmenu", disableRightClick);
+
+    return () => {
+      document.removeEventListener("contextmenu", disableRightClick);
+    };
+  }, []);
+
   const handleViewCodes = () => {
     setShowCodes(!showCodes);
   };
@@ -39,7 +51,7 @@ const MyComponent = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 p-6">
+    <div className="sm:py-20 py-10 bg-gray-100 p-6">
       {selectedDrama ? (
         <div className="bg-white p-6 rounded-lg shadow-lg max-w-4xl mx-auto">
           <h1 className="text-2xl font-bold mb-4">{selectedDrama.dramaName}</h1>
@@ -69,8 +81,8 @@ const MyComponent = () => {
                   {selectedDrama.episodes.map((episode) => (
                     <li key={episode.id} className="mb-2">
                       <div className="p-4 border rounded bg-gray-50">
-                        <h2 className="font-semibold text-lg">{episode.title}</h2>
-                        <span className="text-gray-600">{episode.verificationCode}</span>
+                        <h2 className="font-semibold text-[16px]">{episode.title}</h2>
+                        <span className="text-gray-600 text-center font-serif text-[14px]">Code: {episode.verificationCode}</span>
                       </div>
                     </li>
                   ))}
@@ -88,8 +100,8 @@ const MyComponent = () => {
               <button onClick={() => handleBuyAllSeries()} rel="im-checkout" data-text="Pay" data-css-style="color:#ffffff; background:#75c26a; width:300px; border-radius:4px" className="bg-teal-500 hover:bg-teal-600 text-white py-1.5 px-3 rounded" data-layout="vertical">Buy All Series Code</button> 
               : 
               <button
-                className="bg-rose-500 text-white py-1.5 px-3 rounded cursor-not-allowed">
-                Buy All Code Not Available Yet
+                className="bg-rose-500 text-white py-1.5 px-3 rounded">
+                Enjoy free access
               </button>
             }
           </div>

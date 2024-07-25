@@ -39,7 +39,7 @@ const VideoExplanation = () => {
 
       <h2 className="text-xl sm:text-2xl font-semibold mb-3 text-red-600">Warning</h2>
       <ul className="list-disc list-inside mb-4 text-justify text-red-600">
-        <li>Do not share any verification codes in the YouTube comments.</li>
+        <li>Do not share any verification codes in the other social media plateform or in youtube comments.</li>
       </ul>
 
       <h2 className="text-xl sm:text-2xl font-semibold mb-3">Instructions</h2>
