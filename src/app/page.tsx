@@ -43,7 +43,12 @@ const HomePage = () => {
       title: 'Encounter',
       description: 'Total 16 episodes'
     },
-    // not published yet
+    {
+      img: KingTheLand,
+      routes: 'KingTheLand',
+      title: 'King The Land',
+      description: 'Total 16 episodes'
+    },
     {
       img: ExtraOrdinaryYou,
       routes: 'ExtraOrdinaryYou',
@@ -56,6 +61,7 @@ const HomePage = () => {
       title: 'Cute Body Gaurd',
       description: 'Total 24 episodes'
     },
+    // not published yet
     {
       img: FallInLove,
       routes: 'FallInLove',
@@ -72,12 +78,6 @@ const HomePage = () => {
       img: ItsOkayToNotToBeOkay,
       routes: 'ItsOkayToNotToBeOkay',
       title: 'Its Okay To Not To Be Okay',
-      description: 'Total 16 episodes'
-    },
-    {
-      img: KingTheLand,
-      routes: 'KingTheLand',
-      title: 'King The Land',
       description: 'Total 16 episodes'
     },
     {
