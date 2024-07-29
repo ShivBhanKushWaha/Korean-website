@@ -61,13 +61,6 @@ const HomePage = () => {
       title: 'Cute Body Gaurd',
       description: 'Total 24 episodes'
     },
-    // not published yet
-    {
-      img: FallInLove,
-      routes: 'FallInLove',
-      title: 'Fall In Love',
-      description: 'Total 36 episodes (Hindi 25)'
-    },
     {
       img: Goblin,
       routes: 'Goblin',
@@ -97,6 +90,13 @@ const HomePage = () => {
       routes: 'LoveScenery',
       title: 'Love Scenery',
       description: 'Total 31 episodes'
+    },
+    // not published yet
+    {
+      img: FallInLove,
+      routes: 'FallInLove',
+      title: 'Fall In Love',
+      description: 'Total 36 episodes (Hindi 25)'
     },
     {
       img: MarryMyHusband,
