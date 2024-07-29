@@ -5,7 +5,6 @@ import { verificationCode } from '@/AllVerificationCode/VerificationCode';
 
 type Episode = {
     id: number;
-    title: string;
     verificationCode: string;
 };
 
