@@ -7,7 +7,7 @@ export const Episodes = [
         imageUrl: WTwoWorldApart,
         verificationCode: verificationCode[2].episodes[0].verificationCode,
         videolink: 'https://1024terabox.com/s/1mEYBz8pPhpDXdu33JkoC9g',
-        youtubeLink: '',
+        youtubeLink: 'https://youtu.be/JwrnjxkolcA?si=_R5j87Vd1h03V5Xr',
         uploaded: true,
     },
     {
