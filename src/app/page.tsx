@@ -91,13 +91,6 @@ const HomePage = () => {
       title: 'Love Scenery',
       description: 'Total 31 episodes'
     },
-    // not published yet
-    {
-      img: FallInLove,
-      routes: 'FallInLove',
-      title: 'Fall In Love',
-      description: 'Total 36 episodes (Hindi 25)'
-    },
     {
       img: MarryMyHusband,
       routes: 'MarryMyHusband',
@@ -139,6 +132,13 @@ const HomePage = () => {
       routes: 'QueenOfTears',
       title: 'Queen Of Tears',
       description: 'Total 16 episodes'
+    },
+    // not published yet
+    {
+      img: FallInLove,
+      routes: 'FallInLove',
+      title: 'Fall In Love',
+      description: 'Total 36 episodes (Hindi 25)'
     },
     {
       img: School2017,
