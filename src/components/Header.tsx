@@ -37,27 +37,17 @@ const Header = () => {
     <div className="w-full h-20 sticky top-0 bg-slate-500 z-50">
       <div className="container mx-auto sm:px-8 px-2 h-full">
         <div className="flex justify-between items-center h-full">
-          <Image 
-            onClick={() => router.push('/')} 
-            src={RomanticLogo} 
-            alt="Logo" 
-            width={200} 
-            height={80} 
-            className="rounded-xl cursor-pointer" 
+          <Image
+            onClick={() => router.push('/')}
+            src={RomanticLogo}
+            alt="Logo"
+            width={200}
+            height={80}
+            className="rounded-xl cursor-pointer"
           />
 
           {/* Desktop Menu */}
           <ul className="hidden md:flex gap-x-6 text-black">
-            <li>
-              <Link href="/How-It-Work" className="text-white hover:scale-105 transition-transform ease-in duration-300 font-semibold text-[18px] cursor-pointer">
-                HowItWork
-              </Link>
-            </li>
-            <li>
-              <Link href="/Who-Am-I" className="text-white hover:scale-105 transition-transform ease-in duration-300 font-semibold text-[18px] cursor-pointer">
-                WhoAmI
-              </Link>
-            </li>
             <li>
               <Link href="/" className="text-white hover:scale-105 transition-transform ease-in duration-300 font-semibold text-[18px] cursor-pointer">
                 AllDrama
@@ -68,10 +58,20 @@ const Header = () => {
                 GetAllCode
               </Link>
             </li>
+            <li>
+              <Link href="/How-It-Work" className="text-white hover:scale-105 transition-transform ease-in duration-300 font-semibold text-[18px] cursor-pointer">
+                HowItWork
+              </Link>
+            </li>
+            <li>
+              <Link href="/Who-Am-I" className="text-white hover:scale-105 transition-transform ease-in duration-300 font-semibold text-[18px] cursor-pointer">
+                WhoAmI
+              </Link>
+            </li>
           </ul>
 
-          <button 
-            onClick={handleContactUs} 
+          <button
+            onClick={handleContactUs}
             className="hidden md:block bg-teal-400 px-5 py-1 hover:bg-teal-500 rounded-lg text-white font-sans transition-all duration-300 text-[20px]"
           >
             ContactUs
@@ -90,6 +90,16 @@ const Header = () => {
       {isMenuOpen && (
         <div className="md:hidden bg-slate-500 z-40 absolute top-20 w-full">
           <ul className="flex flex-col items-center gap-y-4 py-4 text-black">
+          <li onClick={() => setIsMenuOpen(false)}>
+              <Link href="/" className="text-white font-semibold text-[18px] cursor-pointer">
+                AllDrama
+              </Link>
+            </li>
+            <li onClick={() => setIsMenuOpen(false)}>
+              <Link href="/How-To-Get-All-Code" className="text-white hover:scale-105 transition-transform ease-in duration-300 font-semibold text-[18px] cursor-pointer">
+                GetAllCode
+              </Link>
+            </li>
             <li onClick={() => setIsMenuOpen(false)}>
               <Link href="/How-It-Work" className="text-white font-semibold text-[18px] cursor-pointer" onClick={() => router.push('/How-It-Work')}>
                 HowItWork
@@ -101,18 +111,8 @@ const Header = () => {
               </Link>
             </li>
             <li onClick={() => setIsMenuOpen(false)}>
-              <Link href="/" className="text-white font-semibold text-[18px] cursor-pointer">
-                AllDrama
-              </Link>
-            </li>
-            <li onClick={() => setIsMenuOpen(false)}>
-              <Link href="/How-To-Get-All-Code" className="text-white hover:scale-105 transition-transform ease-in duration-300 font-semibold text-[18px] cursor-pointer">
-                GetAllCode
-              </Link>
-            </li>
-            <li onClick={() => setIsMenuOpen(false)}>
-              <button 
-                className="bg-red-300 px-5 py-1 hover:bg-red-500 rounded-lg font-mono text-white" 
+              <button
+                className="bg-red-300 px-5 py-1 hover:bg-red-500 rounded-lg font-mono text-white"
                 onClick={handleContactUs}
               >
                 ContactUs
