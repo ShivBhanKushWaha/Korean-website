@@ -7,7 +7,7 @@ export const Episodes = [
         imageUrl: DotOfSun,
         verificationCode: verificationCode[0].episodes[0].verificationCode,
         videolink: 'https://1024terabox.com/s/1XtU1tTFSN7q5z8-SSrnSOw',
-        youtubeLink: 'https://youtu.be/ppgFkzQ10ow?si=Jofn2FQiGjkCtjbd',
+        youtubeLink: '',
         uploaded: true,
     },
     {

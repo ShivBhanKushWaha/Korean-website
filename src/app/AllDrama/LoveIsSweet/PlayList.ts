@@ -7,7 +7,7 @@ export const Episodes = [
         imageUrl: LoveIsSweet,
         verificationCode: verificationCode[1].episodes[0].verificationCode,
         videolink: 'https://1024terabox.com/s/1brjv8_fg8wRcmUCb2LvPfQ',
-        youtubeLink: 'https://youtu.be/-Rli5sYrS1w?si=4VwszY0Cqj-l74wr',
+        youtubeLink: '',
         uploaded: true,
     },
     {

@@ -157,13 +157,6 @@ const HomePage = () => {
       title: 'The Love You Gave Me',
       description: 'Total 28 episodes'
     },
-    // not published yet
-    {
-      img: FallInLove,
-      routes: 'FallInLove',
-      title: 'Fall In Love',
-      description: 'Total 36 episodes (Hindi 25)'
-    },
     {
       img: SnowDrop,
       routes: 'SnowDrop',

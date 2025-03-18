@@ -6,6 +6,10 @@ const WhoAmI = () => {
         <div className="max-w-3xl mx-auto p-4 sm:p-6">
             <h1 className="text-3xl font-bold mb-4 text-center">Who Am I?</h1>
 
+            {/* <p className="mb-4 text-justify">
+                Hello! I am a passionate and skilled Full Stack Developer with a strong foundation in both front-end and back-end technologies. I also specialize in Android development, bringing versatile mobile solutions to life.
+            </p> */}
+
             <p className="mb-4 text-justify">
                 Hello! I am a passionate and skilled Full Stack Developer with a strong foundation in both front-end and back-end technologies. I also specialize in Android development, bringing versatile mobile solutions to life.
             </p>
