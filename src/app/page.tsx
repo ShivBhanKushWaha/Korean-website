@@ -2,7 +2,7 @@
 'use client'
 import React, { useEffect } from 'react';
 import { Card } from '@organisms';
-import { BusinessProposal, CuteBodyGaurd, DineWithLove, DotOfSun, Encounter, ExtraOrdinaryYou, FallInLove, Goblin, ItsOkayToNotToBeOkay, KingTheLand, LieToLove, LoveIsSweet, LoveMeLikeIDo, LoveScenery, MarryMyHusband, MeltingMeSoftly, MyDemon, MyGirlFriendIsAnAlien, OurSecret, PutYourHeadOnMyShoulder, QueenOfTears, School2017, SnowDrop, TheLegendOfTheBlueSea, TheLoveYouGaveMe, TimeToFallInLove, WTwoWorldApart, } from '@assets';
+import { BigMouth, BusinessProposal, CrashLandingOnYou, CuteBodyGaurd, DatingInTheKitchen, DineWithLove, DoctorStranger, DotOfSun, Encounter, ExtraOrdinaryYou, FallInLove, GenZ, GirlFriend, Goblin, Gyeongseong, IAmNotARobot, IKnowILoveYou, ItsOkayToNotToBeOkay, KingTheLand, LieToLove, LoveIsSweet, LoveMeLikeIDo, LoveScenery, LoveUnexpected, MarryMyHusband, MeetingYou2020, MeltingMeSoftly, MyDemon, MyGirlFriendIsAnAlienS1, MyGirlFriendIsAnAlienS2, OurSecret, PutYourHeadOnMyShoulder, QueenOfTears, Reacher, School2017, SnowDrop, SquidGameS1, SquidGameS2, StartUp, StepByStepLove, SweetFirstLove, TheKingEnternalMonarch, TheLegendOfTheBlueSea, TheLoveYouGaveMe, TheWheelOfTimeS1, TheWheelOfTimeS2, TimeToFallInLove, UnlockMyBoss, WTwoWorldApart, YouAreMyDestiny, } from '@assets';
 
 const HomePage = () => {
   const AllKDrama = [
@@ -110,10 +110,16 @@ const HomePage = () => {
       description: 'Total 16 episodes'
     },
     {
-      img: MyGirlFriendIsAnAlien,
-      routes: 'MyGirlFriendIsAnAlien',
-      title: 'My Girl Friend Is An Alien',
+      img: MyGirlFriendIsAnAlienS1,
+      routes: 'MyGirlFriendIsAnAlienS1',
+      title: 'My Girl Friend Is An Alien Season 1',
       description: 'Total 28 episodes'
+    },
+    {
+      img: MyGirlFriendIsAnAlienS2,
+      routes: 'MyGirlFriendIsAnAlienS2',
+      title: 'My Girl Friend Is An Alien Season 2',
+      description: 'Total 30 episodes'
     },
     {
       img: OurSecret,
@@ -169,6 +175,139 @@ const HomePage = () => {
       routes: 'TimeToFallInLove',
       title: 'Time To Fall In Love',
       description: 'Total 24 episodes'
+    },
+    // new kdrama
+    {
+      img: BigMouth,
+      routes: 'BigMouth',
+      title: 'Big Mouth',
+      description: 'Total 16 episodes'
+    },
+    {
+      img: CrashLandingOnYou,
+      routes: 'CrashLandingOnYou',
+      title: 'Crash Landing On You',
+      description: 'Total 16 episodes'
+    },
+    {
+      img: DatingInTheKitchen,
+      routes: 'DatingInTheKitchen',
+      title: 'Dating In The Kitchen',
+      description: 'Total 24 episodes'
+    },
+    {
+      img: DoctorStranger,
+      routes: 'DoctorStranger',
+      title: 'Doctor Stranger',
+      description: 'Total 20 episodes'
+    },
+    {
+      img: GenZ,
+      routes: 'GenZ',
+      title: 'Gen Z',
+      description: 'Total 40 episodes'
+    },
+    {
+      img: GirlFriend,
+      routes: 'GirlFriend',
+      title: 'Girl Friend',
+      description: 'Total 36 episodes'
+    },
+    {
+      img: Gyeongseong,
+      routes: 'Gyeongseong',
+      title: 'Gyeongseong',
+      description: 'Total 7 episodes'
+    },
+    {
+      img: IAmNotARobot,
+      routes: 'IAmNotARobot',
+      title: 'I Am Not A Robot',
+      description: 'Total 28 episodes'
+    },
+    {
+      img: IKnowILoveYou,
+      routes: 'IKnowILoveYou',
+      title: 'I Know I Love You',
+      description: 'Total 24 episodes'
+    },
+    {
+      img: LoveUnexpected,
+      routes: 'LoveUnexpected',
+      title: 'Love Unexpected',
+      description: 'Total 24 episodes'
+    },
+    {
+      img: MeetingYou2020,
+      routes: 'MeetingYou2020',
+      title: 'Meeting You 2020',
+      description: 'Total 28 episodes'
+    },
+    {
+      img: Reacher,
+      routes: 'Reacher',
+      title: 'Reacher',
+      description: 'Total 8 episodes'
+    },
+    {
+      img: SquidGameS1,
+      routes: 'SquidGameS1',
+      title: 'Squid Game Season 1',
+      description: 'Total 9 episodes'
+    },
+    {
+      img: SquidGameS2,
+      routes: 'SquidGameS2',
+      title: 'Squid Game Season 2',
+      description: 'Total 7 episodes'
+    },
+    {
+      img: StartUp,
+      routes: 'StartUp',
+      title: 'Start Up',
+      description: 'Total 16 episodes'
+    },
+    {
+      img: StepByStepLove,
+      routes: 'StepByStepLove',
+      title: 'Step By Step Love',
+      description: 'Total 28 episodes'
+    },
+    {
+      img: SweetFirstLove,
+      routes: 'SweetFirstLove',
+      title: 'Sweet First Love',
+      description: 'Total 24 episodes'
+    },
+    {
+      img: TheKingEnternalMonarch,
+      routes: 'TheKingEnternalMonarch',
+      title: 'The King Eternal Monarch',
+      description: 'Total 16 episodes'
+    },
+    {
+      img: TheWheelOfTimeS1,
+      routes: 'TheWheelOfTimeS1',
+      title: 'The Wheel Of Time Season 1',
+      description: 'Total 8 episodes'
+    },
+    {
+      img: TheWheelOfTimeS2,
+      routes: 'TheWheelOfTimeS2',
+      title: 'The Wheel Of Time Season 2',
+      description: 'Total 8 episodes'
+    },
+    {
+      img: UnlockMyBoss,
+      routes: 'UnlockMyBoss',
+      title: 'Unlock My Boss',
+      description: 'Total 24 episodes'
+    },
+    {
+      img: YouAreMyDestiny,
+      routes: 'YouAreMyDestiny',
+      title: 'You Are My Destiny',
+      description: 'Total 36 episodes'
     },
   ];
   useEffect(() => {
