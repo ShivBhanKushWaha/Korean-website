@@ -8,7 +8,7 @@ export const Episodes = [
         verificationCode: verificationCode[27].episodes[0].verificationCode,
         videolink: '',
         youtubeLink: '',
-        uploaded: true,
+        uploaded: false,
     },
     {
         id: 2,
@@ -17,7 +17,7 @@ export const Episodes = [
         verificationCode: verificationCode[27].episodes[1].verificationCode,
         videolink: '',
         youtubeLink: '',
-        uploaded: true,
+        uploaded: false,
     },
     {
         id: 3,
@@ -26,7 +26,7 @@ export const Episodes = [
         verificationCode: verificationCode[27].episodes[2].verificationCode,
         videolink: '',
         youtubeLink: '',
-        uploaded: true,
+        uploaded: false,
     },
     {
         id: 4,
@@ -35,7 +35,7 @@ export const Episodes = [
         verificationCode: verificationCode[27].episodes[3].verificationCode,
         videolink: '',
         youtubeLink: '',
-        uploaded: true,
+        uploaded: false,
     },
     {
         id: 5,
@@ -44,7 +44,7 @@ export const Episodes = [
         verificationCode: verificationCode[27].episodes[4].verificationCode,
         videolink: 'Ug',
         youtubeLink: '',
-        uploaded: true,
+        uploaded: false,
     },
     {
         id: 6,
@@ -53,7 +53,7 @@ export const Episodes = [
         verificationCode: verificationCode[27].episodes[5].verificationCode,
         videolink: '',
         youtubeLink: '',
-        uploaded: true,
+        uploaded: false,
     },
     {
         id: 27,
@@ -62,7 +62,7 @@ export const Episodes = [
         verificationCode: verificationCode[27].episodes[6].verificationCode,
         videolink: '',
         youtubeLink: '',
-        uploaded: true,
+        uploaded: false,
     },
     {
         id: 8,
@@ -71,7 +71,7 @@ export const Episodes = [
         verificationCode: verificationCode[27].episodes[7].verificationCode,
         videolink: '',
         youtubeLink: '',
-        uploaded: true,
+        uploaded: false,
     },
     {
         id: 9,
@@ -80,7 +80,7 @@ export const Episodes = [
         verificationCode: verificationCode[27].episodes[8].verificationCode,
         videolink: 'g',
         youtubeLink: '',
-        uploaded: true,
+        uploaded: false,
     },
     {
         id: 10,
@@ -89,7 +89,7 @@ export const Episodes = [
         verificationCode: verificationCode[27].episodes[9].verificationCode,
         videolink: '',
         youtubeLink: '',
-        uploaded: true,
+        uploaded: false,
     },
     {
         id: 11,
@@ -98,7 +98,7 @@ export const Episodes = [
         verificationCode: verificationCode[27].episodes[10].verificationCode,
         videolink: 'w',
         youtubeLink: '',
-        uploaded: true,
+        uploaded: false,
     },
     {
         id: 12,
@@ -107,7 +107,7 @@ export const Episodes = [
         verificationCode: verificationCode[27].episodes[11].verificationCode,
         videolink: 'Q',
         youtubeLink: '',
-        uploaded: true,
+        uploaded: false,
     },
     {
         id: 13,
@@ -116,7 +116,7 @@ export const Episodes = [
         verificationCode: verificationCode[27].episodes[12].verificationCode,
         videolink: 'pA',
         youtubeLink: '',
-        uploaded: true,
+        uploaded: false,
     },
     {
         id: 14,
@@ -125,7 +125,7 @@ export const Episodes = [
         verificationCode: verificationCode[27].episodes[13].verificationCode,
         videolink: 'g',
         youtubeLink: '',
-        uploaded: true,
+        uploaded: false,
     },
     {
         id: 15,
@@ -134,7 +134,7 @@ export const Episodes = [
         verificationCode: verificationCode[27].episodes[14].verificationCode,
         videolink: '',
         youtubeLink: '',
-        uploaded: true,
+        uploaded: false,
     },
     {
         id: 16,
@@ -143,6 +143,6 @@ export const Episodes = [
         verificationCode: verificationCode[27].episodes[15].verificationCode,
         videolink: '',
         youtubeLink: '',
-        uploaded: true,
+        uploaded: false,
     },
 ]

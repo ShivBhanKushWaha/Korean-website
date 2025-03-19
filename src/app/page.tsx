@@ -2,7 +2,13 @@
 'use client'
 import React, { useEffect } from 'react';
 import { Card } from '@organisms';
-import { BigMouth, BusinessProposal, CrashLandingOnYou, CuteBodyGaurd, DatingInTheKitchen, DineWithLove, DoctorStranger, DotOfSun, Encounter, ExtraOrdinaryYou, FallInLove, GenZ, GirlFriend, Goblin, Gyeongseong, IAmNotARobot, IKnowILoveYou, ItsOkayToNotToBeOkay, KingTheLand, LieToLove, LoveIsSweet, LoveMeLikeIDo, LoveScenery, LoveUnexpected, MarryMyHusband, MeetingYou2020, MeltingMeSoftly, MyDemon, MyGirlFriendIsAnAlienS1, MyGirlFriendIsAnAlienS2, OurSecret, PutYourHeadOnMyShoulder, QueenOfTears, Reacher, School2017, SnowDrop, SquidGameS1, SquidGameS2, StartUp, StepByStepLove, SweetFirstLove, TheKingEnternalMonarch, TheLegendOfTheBlueSea, TheLoveYouGaveMe, TheWheelOfTimeS1, TheWheelOfTimeS2, TimeToFallInLove, UnlockMyBoss, WTwoWorldApart, YouAreMyDestiny, } from '@assets';
+import {
+  BigMouth, BusinessProposal, CrashLandingOnYou, CuteBodyGaurd, DatingInTheKitchen, DineWithLove, DoctorStranger, DotOfSun,
+  Encounter, ExtraOrdinaryYou, FallInLove, GenZ, GirlFriend, Goblin, Gyeongseong, IAmNotARobot, IKnowILoveYou, ItsOkayToNotToBeOkay,
+  KingTheLand, LieToLove, LoveIsSweet, LoveMeLikeIDo, LoveScenery, LoveUnexpected, MarryMyHusband, MeetingYou2020, MeltingMeSoftly,
+  MyDemon, MyGirlFriendIsAnAlienS1, MyGirlFriendIsAnAlienS2, OurSecret, PutYourHeadOnMyShoulder, QueenOfTears, Reacher, School2017,
+  SnowDrop, SquidGameS1, SquidGameS2, StartUp, StepByStepLove, SweetFirstLove, TheKingEternalMonarch, TheLegendOfTheBlueSea, TheLoveYouGaveMe, TheWheelOfTimeS1, TheWheelOfTimeS2, TimeToFallInLove, UnlockMyBoss, WTwoWorldApart, YouAreMyDestiny,
+} from '@assets';
 
 const HomePage = () => {
   const AllKDrama = [
@@ -273,8 +279,8 @@ const HomePage = () => {
       description: 'Total 24 episodes'
     },
     {
-      img: TheKingEnternalMonarch,
-      routes: 'TheKingEnternalMonarch',
+      img: TheKingEternalMonarch,
+      routes: 'TheKingEternalMonarch',
       title: 'The King Eternal Monarch',
       description: 'Total 16 episodes'
     },
