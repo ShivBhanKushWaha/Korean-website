@@ -1458,7 +1458,7 @@ export const verificationCode = [
     dramaName: "Crash Landing On You",
     status: "free",
     episodes: [
-      { id: 1, title: "Crash Landing On You", verificationCode: "Available Soon" },
+      { id: 1, title: "Crash Landing On You", verificationCode: "CLOY21032501" },
       { id: 2, title: "Crash Landing On You", verificationCode: "Available Soon" },
       { id: 3, title: "Crash Landing On You", verificationCode: "Available Soon" },
       { id: 4, title: "Crash Landing On You", verificationCode: "Available Soon" },

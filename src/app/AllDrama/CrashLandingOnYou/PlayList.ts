@@ -6,9 +6,9 @@ export const Episodes = [
         title: 'Crash Landing On You',
         imageUrl: CrashLandingOnYou,
         verificationCode: verificationCode[27].episodes[0].verificationCode,
-        videolink: '',
+        videolink: 'https://1024terabox.com/s/1BTdo25ZLuRi86GnbLl-53w',
         youtubeLink: '',
-        uploaded: false,
+        uploaded: true,
     },
     {
         id: 2,
