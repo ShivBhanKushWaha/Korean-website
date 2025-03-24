@@ -33,9 +33,9 @@ export const Episodes = [
         title: 'Dating In The Kitchen',
         imageUrl: DatingInTheKitchen,
         verificationCode: verificationCode[28].episodes[3].verificationCode,
-        videolink: '',
+        videolink: 'https://1024terabox.com/s/1AEvWQMMMcBt7gnOvIU5Y_g',
         youtubeLink: '',
-        uploaded: false,
+        uploaded: true,
     },
     {
         id: 5,

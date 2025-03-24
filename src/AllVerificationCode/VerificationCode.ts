@@ -1484,7 +1484,7 @@ export const verificationCode = [
       { id: 1, title: "Dating In The Kitchen", verificationCode: "DITK23032501" },
       { id: 2, title: "Dating In The Kitchen", verificationCode: "DITK23032502" },
       { id: 3, title: "Dating In The Kitchen", verificationCode: "DITK23032503" },
-      { id: 4, title: "Dating In The Kitchen", verificationCode: "Available Soon" },
+      { id: 4, title: "Dating In The Kitchen", verificationCode: "DITK23032504" },
       { id: 5, title: "Dating In The Kitchen", verificationCode: "Available Soon" },
       { id: 6, title: "Dating In The Kitchen", verificationCode: "Available Soon" },
       { id: 7, title: "Dating In The Kitchen", verificationCode: "Available Soon" },
