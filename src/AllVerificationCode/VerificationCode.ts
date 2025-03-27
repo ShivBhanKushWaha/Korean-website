@@ -1512,10 +1512,10 @@ export const verificationCode = [
     dramaName: "Doctor Stranger",
     status: "free",
     episodes: [
-      { id: 1, title: "Doctor Stranger", verificationCode: "Available Soon" },
-      { id: 2, title: "Doctor Stranger", verificationCode: "Available Soon" },
-      { id: 3, title: "Doctor Stranger", verificationCode: "Available Soon" },
-      { id: 4, title: "Doctor Stranger", verificationCode: "Available Soon" },
+      { id: 1, title: "Doctor Stranger", verificationCode: "DS27032501" },
+      { id: 2, title: "Doctor Stranger", verificationCode: "DS27032502" },
+      { id: 3, title: "Doctor Stranger", verificationCode: "DS27032503" },
+      { id: 4, title: "Doctor Stranger", verificationCode: "DS27032504" },
     ],
   },
   {
@@ -1523,8 +1523,8 @@ export const verificationCode = [
     dramaName: "Gen Z",
     status: "free",
     episodes: [
-      { id: 1, title: "Gen Z", verificationCode: "Available Soon" },
-      { id: 2, title: "Gen Z", verificationCode: "Available Soon" },
+      { id: 1, title: "Gen Z", verificationCode: "GZ2703202501" },
+      { id: 2, title: "Gen Z", verificationCode: "GZ2703202502" },
       { id: 3, title: "Gen Z", verificationCode: "Available Soon" },
       { id: 4, title: "Gen Z", verificationCode: "Available Soon" },
       { id: 5, title: "Gen Z", verificationCode: "Available Soon" },
