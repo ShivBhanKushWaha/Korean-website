@@ -1528,7 +1528,7 @@ export const verificationCode = [
       { id: 3, title: "Gen Z", verificationCode: "GZ2803202503" },
       { id: 4, title: "Gen Z", verificationCode: "GZ2803202504" },
       { id: 5, title: "Gen Z", verificationCode: "GZ2803202505" },
-      { id: 6, title: "Gen Z", verificationCode: "Available Soon" },
+      { id: 6, title: "Gen Z", verificationCode: "GZ0104202506" },
       { id: 7, title: "Gen Z", verificationCode: "Available Soon" },
       { id: 8, title: "Gen Z", verificationCode: "Available Soon" },
       { id: 9, title: "Gen Z", verificationCode: "Available Soon" },
