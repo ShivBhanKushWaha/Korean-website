@@ -53,7 +53,7 @@ export const Episodes = [
         verificationCode: verificationCode[30].episodes[5].verificationCode,
         videolink: 'https://1024terabox.com/s/1tk1Z5O8ETt1nleKNK0L5kA',
         youtubeLink: '',
-        uploaded: false,
+        uploaded: true,
     },
     {
         id: 7,
@@ -62,7 +62,7 @@ export const Episodes = [
         verificationCode: verificationCode[30].episodes[6].verificationCode,
         videolink: 'https://1024terabox.com/s/1ttc84hiVnuWkUS5QHq-2Ew',
         youtubeLink: '',
-        uploaded: false,
+        uploaded: true,
     },
     {
         id: 8,
@@ -71,7 +71,7 @@ export const Episodes = [
         verificationCode: verificationCode[30].episodes[7].verificationCode,
         videolink: 'https://1024terabox.com/s/1JCXieOn8p_AQI8iLrqw0ug',
         youtubeLink: '',
-        uploaded: false,
+        uploaded: true,
     },
     {
         id: 9,
@@ -80,7 +80,7 @@ export const Episodes = [
         verificationCode: verificationCode[30].episodes[8].verificationCode,
         videolink: 'https://1024terabox.com/s/1_xZaxEMZI3NkZBSrOZjedg',
         youtubeLink: '',
-        uploaded: false,
+        uploaded: true,
     },
     {
         id: 10,
@@ -89,7 +89,7 @@ export const Episodes = [
         verificationCode: verificationCode[30].episodes[9].verificationCode,
         videolink: 'https://1024terabox.com/s/1MrVePXde-uxw0Ijn9z_zEA',
         youtubeLink: '',
-        uploaded: false,
+        uploaded: true,
     },
     {
         id: 11,
@@ -98,7 +98,7 @@ export const Episodes = [
         verificationCode: verificationCode[30].episodes[10].verificationCode,
         videolink: 'https://1024terabox.com/s/1J5OFdWiJHNH7CDPwiP7oHA',
         youtubeLink: '',
-        uploaded: false,
+        uploaded: true,
     },
     {
         id: 12,
@@ -107,7 +107,7 @@ export const Episodes = [
         verificationCode: verificationCode[30].episodes[11].verificationCode,
         videolink: 'https://1024terabox.com/s/18HrlNgA5JH0rouyS8SJ35Q',
         youtubeLink: '',
-        uploaded: false,
+        uploaded: true,
     },
     {
         id: 13,
