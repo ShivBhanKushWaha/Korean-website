@@ -186,9 +186,9 @@ export const Episodes = [
         title: 'Gen Z',
         imageUrl: GenZ,
         verificationCode: verificationCode[30].episodes[20].verificationCode,
-        videolink: '',
+        videolink: 'https://1024terabox.com/s/1iOR9yTiV073Kz0exVBIyNA',
         youtubeLink: '',
-        uploaded: false,
+        uploaded: true,
     },
     {
         id: 22,
