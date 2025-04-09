@@ -44,7 +44,7 @@ const HomePage = () => {
       },
       {
         img: DotOfSun,
-        routes: 'DescendantsOfTheSun',
+        routes: 'DotOfSun',
         title: 'Descendants of the Sun',
         description: 'Total 16 episodes'
       },
