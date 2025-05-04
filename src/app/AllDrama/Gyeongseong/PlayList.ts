@@ -6,9 +6,9 @@ export const Episodes = [
         title: 'Gyeongseong',
         imageUrl: Gyeongseong,
         verificationCode: verificationCode[32].episodes[0].verificationCode,
-        videolink: '',
+        videolink: 'https://1024terabox.com/s/142nCbSS6STtQA6dk0U4mxA',
         youtubeLink: '',
-        uploaded: false,
+        uploaded: true,
     },
     {
         id: 2,
