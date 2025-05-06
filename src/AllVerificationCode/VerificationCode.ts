@@ -1614,12 +1614,12 @@ export const verificationCode = [
     status: "free",
     episodes: [
       { id: 1, title: "Gyeongseong", verificationCode: "G0405202501" },
-      { id: 2, title: "Gyeongseong", verificationCode: "Available Soon" },
-      { id: 3, title: "Gyeongseong", verificationCode: "Available Soon" },
-      { id: 4, title: "Gyeongseong", verificationCode: "Available Soon" },
-      { id: 5, title: "Gyeongseong", verificationCode: "Available Soon" },
-      { id: 6, title: "Gyeongseong", verificationCode: "Available Soon" },
-      { id: 7, title: "Gyeongseong", verificationCode: "Available Soon" },
+      { id: 2, title: "Gyeongseong", verificationCode: "G0605202502" },
+      { id: 3, title: "Gyeongseong", verificationCode: "G0605202503" },
+      { id: 4, title: "Gyeongseong", verificationCode: "G0605202504" },
+      { id: 5, title: "Gyeongseong", verificationCode: "G0605202505" },
+      { id: 6, title: "Gyeongseong", verificationCode: "G0605202506" },
+      { id: 7, title: "Gyeongseong", verificationCode: "G0605202507" },
     ],
   },
   {
