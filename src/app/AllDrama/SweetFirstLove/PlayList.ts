@@ -6,7 +6,7 @@ export const Episodes = [
         title: 'Sweet First Love',
         imageUrl: SweetFirstLove,
         verificationCode: verificationCode[42].episodes[0].verificationCode,
-        videolink: '',
+        videolink: 'https://1024terabox.com/s/1y3kbyV3nQQiT3VuqkjkVCQ',
         youtubeLink: '',
         uploaded: false,
     },
