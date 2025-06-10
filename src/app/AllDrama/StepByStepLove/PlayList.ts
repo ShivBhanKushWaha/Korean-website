@@ -53,7 +53,7 @@ export const Episodes = [
         verificationCode: verificationCode[41].episodes[5].verificationCode,
         videolink: 'https://1024terabox.com/s/1hEbon1kySpv47Yr2b_kzYg',
         youtubeLink: '',
-        uploaded: false,
+        uploaded: true,
     },
     {
         id: 7,
@@ -62,7 +62,7 @@ export const Episodes = [
         verificationCode: verificationCode[41].episodes[6].verificationCode,
         videolink: 'https://1024terabox.com/s/1TL7M_z1X8tWAH03gGh5K6g',
         youtubeLink: '',
-        uploaded: false,
+        uploaded: true,
     },
     {
         id: 8,
@@ -71,7 +71,7 @@ export const Episodes = [
         verificationCode: verificationCode[41].episodes[7].verificationCode,
         videolink: 'https://1024terabox.com/s/1xYgZcwux930TZ19oH24BjA',
         youtubeLink: '',
-        uploaded: false,
+        uploaded: true,
     },
     {
         id: 9,
@@ -80,7 +80,7 @@ export const Episodes = [
         verificationCode: verificationCode[41].episodes[8].verificationCode,
         videolink: 'https://1024terabox.com/s/15VumlQA9LslRxXbAwO-Z_A',
         youtubeLink: '',
-        uploaded: false,
+        uploaded: true,
     },
     {
         id: 10,
