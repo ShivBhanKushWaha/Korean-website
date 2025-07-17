@@ -3,11 +3,18 @@
 import React, { useEffect } from 'react';
 import { Card } from '@organisms';
 import {
-  BigMouth, BusinessProposal, CrashLandingOnYou, CuteBodyGaurd, DatingInTheKitchen, DineWithLove, DoctorStranger, DotOfSun,
-  Encounter, ExtraOrdinaryYou, FallInLove, GenZ, GirlFriend, Goblin, Gyeongseong, IAmNotARobot, IKnowILoveYou, ItsOkayToNotToBeOkay,
-  KingTheLand, LieToLove, LoveIsSweet, LoveMeLikeIDo, LoveScenery, LoveUnexpected, MarryMyHusband, MeetingYou2020, MeltingMeSoftly,
-  MyDemon, MyGirlFriendIsAnAlienS1, MyGirlFriendIsAnAlienS2, OurSecret, PutYourHeadOnMyShoulder, QueenOfTears, Reacher, School2017,
-  SnowDrop, SquidGameS1, SquidGameS2, StartUp, StepByStepLove, SweetFirstLove, TheKingEternalMonarch, TheLegendOfTheBlueSea, TheLoveYouGaveMe, TheWheelOfTimeS1, TheWheelOfTimeS2, TimeToFallInLove, UnlockMyBoss, WTwoWorldApart, YouAreMyDestiny,
+  ALoveSoRomantic,
+  BestLover,
+  BigMouth, BringItGhost, BusinessProposal, ChasingBall, ComeAndHugMe, CrashLandingOnYou, CuteBodyGaurd, DalliAndCockyPrince, DanceOfTheSky, DatingInTheKitchen, DineWithLove, DoctorStranger, DotOfSun,
+  DreamGarden,
+  Encounter, EternalLoveRain, ExtraOrdinaryYou, FallInLove, GenZ, GirlFriend, Goblin, Gyeongseong, Heirs, HelloMyGirl, IAmNotARobot, IKnowILoveYou, IMayLoveYou, IntenseLove, ItsOkayToNotToBeOkay,
+  KingTheLand, LieToLove, Love020, LoveAtFirstBite, LoveAtNight, LoveIsSweet, LoveMeLikeIDo, LoveScenery, LoveUnexpected, MarryMyHusband, MeetingYou2020, MeltingMeSoftly,
+  MrInsomiaWaitingForLove,
+  MyDearLady,
+  MyDemon, MyDeskmate, MyGirlFriendIsAGumiho, MyGirlFriendIsAnAlienS1, MyGirlFriendIsAnAlienS2, MyIdIsGanganamBeauty, MyLethalMan, MyPrecious, MysteriousLove, OurSecret, PutYourHeadOnMyShoulder, QueenOfTears, Reacher, School2017,
+  SecretOfLove,
+  SmileToLife,
+  SnowDrop, SquidGameS1, SquidGameS2, StartUp, StepByStepLove, SuspiciousPartner, SweetAndSaltyOffice, SweetFirstLove, SweetSweet, TheK2, TheKingEternalMonarch, TheLegendOfTheBlueSea, TheLoveYouGaveMe, theSecretOfMySecretry, TheWheelOfTimeS1, TheWheelOfTimeS2, Time, TimeToFallInLove, ToFlyWithYou, UncontrollablyFond, UnlockMyBoss, Vincenzo, WarmMeetYou, WeightLiftingKim, WenderallasDiary, WhenLifeGivesYouTangerien, WTwoWorldApart, YouAreMyDestiny,
 } from '@assets';
 
 const HomePage = () => {
@@ -312,7 +319,244 @@ const HomePage = () => {
         title: 'You Are My Destiny',
         description: 'Total 36 episodes'
       },
-    ];    
+      
+      // new drama 
+      {
+        img: ALoveSoRomantic,
+        routes: 'ALoveSoRomantic',
+        title: 'A Love So Romantic',
+        description: 'Total 32 episodes'
+      },
+      {
+        img: BestLover,
+        routes: 'BestLover',
+        title: 'Best Lover',
+        description: 'Total 12 episodes'
+      },
+      {
+        img: BringItGhost,
+        routes: 'BringItGhost',
+        title: 'Bring It Ghost',
+        description: 'Total 16 episodes'
+      },
+      {
+        img: ChasingBall,
+        routes: 'ChasingBall',
+        title: 'Chasing Ball',
+        description: 'Total 36 episodes'
+      },
+      {
+        img: ComeAndHugMe,
+        routes: 'ComeAndHugMe',
+        title: 'Come And Hug Me',
+        description: 'Total 16 episodes'
+      },
+      {
+        img: DalliAndCockyPrince,
+        routes: 'DalliAndCockyPrince',
+        title: 'Dalli And Cocky Prince',
+        description: 'Total 16 episodes'
+      },
+      {
+        img: DanceOfTheSky,
+        routes: 'DanceOfTheSky',
+        title: 'Dance Of The Sky',
+        description: 'Total 28 episodes'
+      },
+      {
+        img: DreamGarden,
+        routes: 'DreamGarden',
+        title: 'Dream Garden',
+        description: 'Total 32 episodes'
+      },
+      {
+        img: EternalLoveRain,
+        routes: 'EternalLoveRain',
+        title: 'Eternal Love Rain',
+        description: 'Total 24 episodes'
+      },
+      {
+        img: Heirs,
+        routes: 'Heirs',
+        title: 'Heirs',
+        description: 'Total 17 episodes'
+      },
+      {
+        img: HelloMyGirl,
+        routes: 'HelloMyGirl',
+        title: 'Hello My Girl',
+        description: 'Total 24 episodes'
+      },
+      {
+        img: IMayLoveYou,
+        routes: 'IMayLoveYou',
+        title: 'I May Love You',
+        description: 'Total 24 episodes'
+      },
+      {
+        img: IntenseLove,
+        routes: 'IntenseLove',
+        title: 'Intense Love',
+        description: 'Total 24 episodes'
+      },
+      {
+        img: LoveAtFirstBite,
+        routes: 'LoveAtFirstBite',
+        title: 'Love At First Bite',
+        description: 'Total 28 episodes'
+      },
+      {
+        img: LoveAtNight,
+        routes: 'LoveAtNight',
+        title: 'Love At Night',
+        description: 'Total 30 episodes'
+      },
+      {
+        img: Love020,
+        routes: 'Love020',
+        title: 'Love020',
+        description: 'Total 30 episodes'
+      },
+      {
+        img: MrInsomiaWaitingForLove,
+        routes: 'MrInsomiaWaitingForLove',
+        title: 'Mr Insomia Waiting For Love',
+        description: 'Total 24 episodes'
+      },
+      {
+        img: MyDearLady,
+        routes: 'MyDearLady',
+        title: 'My Dear Lady',
+        description: 'Total 16 episodes'
+      },
+      {
+        img: MyDeskmate,
+        routes: 'MyDeskmate',
+        title: 'My Deskmate',
+        description: 'Total 30 episodes'
+      },
+      {
+        img: MyGirlFriendIsAGumiho,
+        routes: 'MyGirlFriendIsAGumiho',
+        title: 'My Girl Friend Is A Gumiho',
+        description: 'Total 16 episodes'
+      },
+      {
+        img: MyIdIsGanganamBeauty,
+        routes: 'MyIdIsGanganamBeauty',
+        title: 'My Id Is Ganganam Beauty',
+        description: 'Total 16 episodes'
+      },
+      {
+        img: MyLethalMan,
+        routes: 'MyLethalMan',
+        title: 'My Lethal Man',
+        description: 'Total 24 episodes'
+      },
+      {
+        img: MysteriousLove,
+        routes: 'MysteriousLove',
+        title: 'Mysterious Love',
+        description: 'Total 16 episodes'
+      },
+      {
+        img: SecretOfLove,
+        routes: 'SecretOfLove',
+        title: 'Secret Of Love',
+        description: 'Total 30 episodes'
+      },
+      {
+        img: SmileToLife,
+        routes: 'SmileToLife',
+        title: 'Smile To Life',
+        description: 'Total 24 episodes'
+      },
+      {
+        img: SuspiciousPartner,
+        routes: 'SuspiciousPartner',
+        title: 'Suspicious Partner',
+        description: 'Total 20 episodes'
+      },
+      {
+        img: SweetAndSaltyOffice,
+        routes: 'SweetAndSaltyOffice',
+        title: 'Sweet And Salty Office',
+        description: 'Total 20 episodes'
+      },
+      {
+        img: SweetSweet,
+        routes: 'SweetSweet',
+        title: 'Sweet Sweet',
+        description: 'Total 22 episodes'
+      },
+      {
+        img: TheK2,
+        routes: 'TheK2',
+        title: 'TheK2',
+        description: 'Total 16 episodes'
+      },
+      {
+        img: theSecretOfMySecretry,
+        routes: 'theSecretOfMySecretry',
+        title: 'the Secret Of My Secretry',
+        description: 'Total 5 episodes'
+      },
+      {
+        img: Time,
+        routes: 'Time',
+        title: 'Time',
+        description: 'Total 16 episodes'
+      },
+      {
+        img: ToFlyWithYou,
+        routes: 'ToFlyWithYou',
+        title: 'To Fly With You',
+        description: 'Total 30 episodes'
+      },
+      {
+        img: UncontrollablyFond,
+        routes: 'UncontrollablyFond',
+        title: 'Uncontrollably Fond',
+        description: 'Total 20 episodes'
+      },
+      {
+        img: Vincenzo,
+        routes: 'Vincenzo',
+        title: 'Vincenzo',
+        description: 'Total 20 episodes'
+      },
+      {
+        img: WarmMeetYou,
+        routes: 'WarmMeetYou',
+        title: 'Warm Meet You',
+        description: 'Total 24 episodes'
+      },
+      {
+        img: WeightLiftingKim,
+        routes: 'WeightLiftingKim',
+        title: 'Weight Lifting Kim',
+        description: 'Total 16 episodes'
+      },
+      {
+        img: WenderallasDiary,
+        routes: 'WenderallasDiary',
+        title: 'Wenderallas Diary',
+        description: 'Total 24 episodes'
+      },
+      {
+        img: WhenLifeGivesYouTangerien,
+        routes: 'WhenLifeGivesYouTangerien',
+        title: 'When Life Gives You Tangerien',
+        description: 'Total 16 episodes'
+      },
+      {
+        img: MyPrecious,
+        routes: 'MyPrecious',
+        title: 'My Precious',
+        description: 'Total 40 episodes'
+      },
+    ];
+
   useEffect(() => {
     const disableRightClick = (event: MouseEvent) => {
       event.preventDefault();
