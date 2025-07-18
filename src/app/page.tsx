@@ -14,7 +14,7 @@ import {
   MyDemon, MyDeskmate, MyGirlFriendIsAGumiho, MyGirlFriendIsAnAlienS1, MyGirlFriendIsAnAlienS2, MyIdIsGanganamBeauty, MyLethalMan, MyPrecious, MysteriousLove, OurSecret, PutYourHeadOnMyShoulder, QueenOfTears, Reacher, School2017,
   SecretOfLove,
   SmileToLife,
-  SnowDrop, SquidGameS1, SquidGameS2, StartUp, StepByStepLove, SuspiciousPartner, SweetAndSaltyOffice, SweetFirstLove, SweetSweet, TheK2, TheKingEternalMonarch, TheLegendOfTheBlueSea, TheLoveYouGaveMe, theSecretOfMySecretry, TheWheelOfTimeS1, TheWheelOfTimeS2, Time, TimeToFallInLove, ToFlyWithYou, UncontrollablyFond, UnlockMyBoss, Vincenzo, WarmMeetYou, WeightLiftingKim, WenderallasDiary, WhenLifeGivesYouTangerien, WTwoWorldApart, YouAreMyDestiny,
+  SnowDrop, SquidGameS1, SquidGameS2, StartUp, StepByStepLove, SuspiciousPartner, SweetAndSaltyOffice, SweetFirstLove, SweetSweet, TheK2, TheKingEternalMonarch, TheLegendOfTheBlueSea, TheLoveYouGaveMe, theSecretLifeOfMySecretry, TheWheelOfTimeS1, TheWheelOfTimeS2, Time, TimeToFallInLove, ToFlyWithYou, UncontrollablyFond, UnlockMyBoss, Vincenzo, WarmMeetYou, WeightLiftingKim, WenderallasDiary, WhenLifeGivesYouTangerien, WTwoWorldApart, YouAreMyDestiny,
 } from '@assets';
 
 const HomePage = () => {
@@ -496,10 +496,10 @@ const HomePage = () => {
         description: 'Total 16 episodes'
       },
       {
-        img: theSecretOfMySecretry,
+        img: theSecretLifeOfMySecretry,
         routes: 'theSecretOfMySecretry',
-        title: 'the Secret Of My Secretry',
-        description: 'Total 5 episodes'
+        title: 'the Secret Life Of My Secretry',
+        description: 'Total 16 episodes'
       },
       {
         img: Time,
