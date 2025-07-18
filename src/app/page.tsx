@@ -497,7 +497,7 @@ const HomePage = () => {
       },
       {
         img: theSecretLifeOfMySecretry,
-        routes: 'theSecretOfMySecretry',
+        routes: 'theSecretLifeOfMySecretry',
         title: 'the Secret Life Of My Secretry',
         description: 'Total 16 episodes'
       },
