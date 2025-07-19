@@ -511,7 +511,7 @@ const HomePage = () => {
         img: ToFlyWithYou,
         routes: 'ToFlyWithYou',
         title: 'To Fly With You',
-        description: 'Total 30 episodes'
+        description: 'Total 33 episodes'
       },
       {
         img: UncontrollablyFond,
