@@ -555,6 +555,38 @@ const HomePage = () => {
         title: 'My Precious',
         description: 'Total 40 episodes'
       },
+
+      // new drama
+      {
+        img: MyPrecious,
+        routes: 'MyPrecious',
+        title: 'Doctor John',
+        description: 'Total 16 episodes'
+      },
+      {
+        img: MyPrecious,
+        routes: 'MyPrecious',
+        title: 'Hospital Ship',
+        description: 'Total 20 episodes'
+      },
+      {
+        img: MyPrecious,
+        routes: 'MyPrecious',
+        title: 'Kill Me Heal Me',
+        description: 'Total 20 episodes'
+      },
+      {
+        img: MyPrecious,
+        routes: 'MyPrecious',
+        title: 'My Secret Terrius',
+        description: 'Total 20 episodes'
+      },
+      {
+        img: MyPrecious,
+        routes: 'MyPrecious',
+        title: 'My Strange Hero',
+        description: 'Total 20 episodes'
+      },
     ];
 
   useEffect(() => {
