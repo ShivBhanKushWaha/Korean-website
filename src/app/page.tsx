@@ -585,7 +585,7 @@ const HomePage = () => {
         img: MyPrecious,
         routes: 'MyPrecious',
         title: 'My Strange Hero',
-        description: 'Total 40 episodes'
+        description: 'Total 16 episodes'
       },
     ];
 
